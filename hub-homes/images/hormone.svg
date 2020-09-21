@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="52px" viewBox="0 0 80 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon/Hormone</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HealthTech-Homepage" transform="translate(-238.000000, -3570.000000)" stroke="#FFD842">
+            <g id="Services" transform="translate(72.000000, 3361.000000)">
+                <g id="Teens" transform="translate(0.000000, 147.000000)">
+                    <g id="Icons/Hormone" transform="translate(158.000000, 43.000000)">
+                        <g id="Icon/Hormone" transform="translate(44.500000, 43.000000) rotate(30.000000) translate(-44.500000, -43.000000) translate(11.000000, 13.000000)">
+                            <circle id="Oval" stroke-width="2" cx="14.020339" cy="54.0338983" r="5.81694915"></circle>
+                            <circle id="Oval-Copy-16" stroke-width="2" cx="14.7661017" cy="21.8169492" r="5.81694915"></circle>
+                            <circle id="Oval-Copy-17" stroke-width="2" cx="32.9265214" cy="53.7717837" r="5.81694915"></circle>
+                            <circle id="Oval-Copy-18" stroke-width="2" cx="33.4101695" cy="21.8169492" r="5.81694915"></circle>
+                            <circle id="Oval-Copy-20" stroke-width="2" cx="5.81694915" cy="37.9254237" r="5.81694915"></circle>
+                            <circle id="Oval-Copy-21" stroke-width="2" cx="42.5084746" cy="37.9254237" r="5.81694915"></circle>
+                            <line x1="36.1768198" y1="26.9586759" x2="39.805603" y2="33.2439128" id="Path-10" stroke-width="2"></line>
+                            <line x1="8.05423729" y1="26.7389831" x2="11.6338983" y2="32.1084746" id="Path-10-Copy-4" stroke-width="2" transform="translate(9.844068, 29.423729) scale(-1, 1) translate(-9.844068, -29.423729) "></line>
+                            <line x1="36.6915254" y1="43.7423729" x2="40.2711864" y2="49.9960124" id="Path-10-Copy-3" stroke-width="2" transform="translate(38.481356, 46.869193) scale(-1, 1) translate(-38.481356, -46.869193) "></line>
+                            <line x1="7.10660379" y1="43.7423729" x2="10.7901153" y2="49.9960124" id="Path-10-Copy-5" stroke-width="2"></line>
+                            <line x1="20.5830508" y1="21.3694915" x2="27.7423729" y2="21.3694915" id="Path-10-Copy-2" stroke-width="2"></line>
+                            <line x1="19.8489399" y1="55.5331624" x2="26.8474576" y2="55.5254237" id="Path-10-Copy" stroke-width="2"></line>
+                            <circle id="Oval-Copy-16" stroke-width="2" cx="42.4789146" cy="5.81694915" r="5.81694915"></circle>
+                            <circle id="Oval-Copy-18" stroke-width="2" cx="61.1229824" cy="5.81694915" r="5.81694915"></circle>
+                            <line x1="35.7670502" y1="10.7389831" x2="39.3467112" y2="16.1084746" id="Path-10-Copy-4" stroke-width="2" transform="translate(37.556881, 13.423729) scale(-1, 1) translate(-37.556881, -13.423729) "></line>
+                            <line x1="48.7754474" y1="3.57966102" x2="54.9756022" y2="7.15932203" id="Path-10-Copy-2" stroke-width="2" transform="translate(51.875525, 5.369492) rotate(-30.000000) translate(-51.875525, -5.369492) "></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

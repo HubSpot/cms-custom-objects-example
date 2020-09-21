@@ -1,0 +1,2092 @@
+{
+  "name": {
+    "message": "セッション",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.body_bg.label": {
+    "message": "本文の背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.label": {
+    "message": "色",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.primary.label": {
+    "message": "プライマリ",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.secondary.label": {
+    "message": "セカンダリ",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.primary.label": {
+    "message": "プライマリ",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.secondary.label": {
+    "message": "セカンダリ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.choices.color": {
+    "message": "ソリッドカラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.choices.image": {
+    "message": "画像を使用",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg_color.help_text": {
+    "message": "背景画像を設定していない限り、バナーの背景色が無地の背景として使用されます。この場合、その色はバナー画像に対する代替色として使用されます",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.label": {
+    "message": "バナー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.listing_bg.help_text": {
+    "message": "「セッション - ブログ一覧」テンプレートを使用するすべてのブログのブログ一覧ページで使用される背景画像",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.listing_bg.label": {
+    "message": "ブログ一覧バナー画像",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.label": {
+    "message": "ブログ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.label": {
+    "message": "タグ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.label": {
+    "message": "ボタン",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.corner_radius.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.corner_radius.label": {
+    "message": "角の半径",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.dashed": {
+    "message": "破線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.dotted": {
+    "message": "点線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.double": {
+    "message": "二重線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.groove": {
+    "message": "立体線（凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.inset": {
+    "message": "立体（全体凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.outset": {
+    "message": "立体（全体凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.ridge": {
+    "message": "立体（凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.solid": {
+    "message": "実線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.dashed": {
+    "message": "破線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.dotted": {
+    "message": "点線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.double": {
+    "message": "二重線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.groove": {
+    "message": "立体線（凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.inset": {
+    "message": "立体（全体凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.outset": {
+    "message": "立体（全体凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.ridge": {
+    "message": "立体（凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.solid": {
+    "message": "実線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.label": {
+    "message": "カーソルを置く",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.label": {
+    "message": "プライマリ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.corner_radius.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.corner_radius.label": {
+    "message": "角の半径",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.dashed": {
+    "message": "破線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.dotted": {
+    "message": "点線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.double": {
+    "message": "二重線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.groove": {
+    "message": "立体線（凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.inset": {
+    "message": "立体（全体凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.outset": {
+    "message": "立体（全体凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.ridge": {
+    "message": "立体（凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.solid": {
+    "message": "実線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.dashed": {
+    "message": "破線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.dotted": {
+    "message": "点線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.double": {
+    "message": "二重線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.groove": {
+    "message": "立体線（凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.inset": {
+    "message": "立体（全体凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.outset": {
+    "message": "立体（全体凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.ridge": {
+    "message": "立体（凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.solid": {
+    "message": "実線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.label": {
+    "message": "カーソルを置く",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.label": {
+    "message": "セカンダリ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.label": {
+    "message": "カーソルを置く",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.add_underline.label": {
+    "message": "下線を追加",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.label": {
+    "message": "下線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.label": {
+    "message": "シンプル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.add_underline.label": {
+    "message": "下線を追加",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.label": {
+    "message": "下線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.label": {
+    "message": "サイズ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.font_size.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.font_size.label": {
+    "message": "フォントサイズ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.horizontal_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.horizontal_spacing.label": {
+    "message": "水平方向のスペース",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.label": {
+    "message": "大",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.vertical_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.vertical_spacing.label": {
+    "message": "垂直方向のスペース",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.font_size.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.font_size.label": {
+    "message": "フォントサイズ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.horizontal_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.horizontal_spacing.label": {
+    "message": "水平方向のスペース",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.label": {
+    "message": "通常送信",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.vertical_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.vertical_spacing.label": {
+    "message": "垂直方向のスペース",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.font_size.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.font_size.label": {
+    "message": "フォントサイズ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.horizontal_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.horizontal_spacing.label": {
+    "message": "水平方向のスペース",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.label": {
+    "message": "小",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.vertical_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.vertical_spacing.label": {
+    "message": "垂直方向のスペース",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.label": {
+    "message": "上の境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.dashed": {
+    "message": "破線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.dotted": {
+    "message": "点線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.double": {
+    "message": "二重線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.groove": {
+    "message": "立体線（凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.inset": {
+    "message": "立体（全体凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.outset": {
+    "message": "立体（全体凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.ridge": {
+    "message": "立体（凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.solid": {
+    "message": "実線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.font_color.label": {
+    "message": "文字色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.label": {
+    "message": "フッター",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.active.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.active.label": {
+    "message": "有効",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.hover.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.hover.label": {
+    "message": "カーソルを置く",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.label": {
+    "message": "メニュー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.corner_radius.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.corner_radius.label": {
+    "message": "角の半径",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.dashed": {
+    "message": "破線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.dotted": {
+    "message": "点線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.double": {
+    "message": "二重線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.groove": {
+    "message": "立体線（凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.inset": {
+    "message": "立体（全体凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.outset": {
+    "message": "立体（全体凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.ridge": {
+    "message": "立体（凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.solid": {
+    "message": "実線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.corner_radius.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.corner_radius.label": {
+    "message": "角の半径",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.help_text": {
+    "message": "すべてのテキストフィールドおよびドロップダウン選択フィールドに適用されます。チェックボックス、ラジオ、GDPRテキスト、リッチテキストフィールドには適用されません。",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.dashed": {
+    "message": "破線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.dotted": {
+    "message": "点線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.double": {
+    "message": "二重線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.groove": {
+    "message": "立体線（凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.inset": {
+    "message": "立体（全体凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.outset": {
+    "message": "立体（全体凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.ridge": {
+    "message": "立体（凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.solid": {
+    "message": "実線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.label": {
+    "message": "チェックボックス／ラジオ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.help_text": {
+    "message": "フォームのチェックボックス／ラジオフィールドとGDPRチェックボックスフィールドを制御します",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.font.help_text": {
+    "message": "フォームのチェックボックス／ラジオフィールドとGDPRチェックボックスフィールド項目のフォントを制御します",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.label": {
+    "message": "GDPRテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.help_text": {
+    "message": "GDPRフィールドの段落コンテンツを制御します",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.label": {
+    "message": "リッチテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.help_text": {
+    "message": "フォームのリッチテキストフィールドを制御します",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.label": {
+    "message": "フィールド",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.horizontal.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.horizontal.label": {
+    "message": "左／右",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.label": {
+    "message": "パディング",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.help_text": {
+    "message": "すべてのテキストフィールドおよびドロップダウン選択フィールドに適用されます。チェックボックス、ラジオ、GDPRテキスト、リッチテキストフィールドには適用されません。",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.vertical.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.vertical.label": {
+    "message": "上／下",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.placeholder_color.label": {
+    "message": "プレースホルダーの色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.help_text.label": {
+    "message": "ヘルプテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.label": {
+    "message": "フォーム",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.label": {
+    "message": "ラベル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.horizontal.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.horizontal.label": {
+    "message": "左／右",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.label": {
+    "message": "パディング",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.vertical.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.vertical.label": {
+    "message": "上／下",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.horizontal.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.horizontal.label": {
+    "message": "左／右",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.label": {
+    "message": "パディング",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.vertical.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.vertical.label": {
+    "message": "上／下",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.large": {
+    "message": "大",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.regular": {
+    "message": "通常送信",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.small": {
+    "message": "小",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.label": {
+    "message": "ボタンのサイズ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.primary": {
+    "message": "プライマリ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.secondary": {
+    "message": "セカンダリ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.simple": {
+    "message": "シンプル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.label": {
+    "message": "ボタンスタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.label": {
+    "message": "送信",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.corner_radius.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.corner_radius.label": {
+    "message": "角の半径",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.dashed": {
+    "message": "破線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.dotted": {
+    "message": "点線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.double": {
+    "message": "二重線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.groove": {
+    "message": "立体線（凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.inset": {
+    "message": "立体（全体凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.outset": {
+    "message": "立体（全体凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.ridge": {
+    "message": "立体（凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.solid": {
+    "message": "実線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.label": {
+    "message": "タイトル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.horizontal.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.horizontal.label": {
+    "message": "左／右",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.label": {
+    "message": "パディング",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.vertical.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.vertical.label": {
+    "message": "上／下",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.label": {
+    "message": "下の境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.dashed": {
+    "message": "破線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.dotted": {
+    "message": "点線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.double": {
+    "message": "二重線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.groove": {
+    "message": "立体線（凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.inset": {
+    "message": "立体（全体凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.outset": {
+    "message": "立体（全体凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.ridge": {
+    "message": "立体（凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.solid": {
+    "message": "実線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.label": {
+    "message": "ウェブサイトヘッダー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.label": {
+    "message": "有効",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.label": {
+    "message": "カーソルを置く",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.label": {
+    "message": "メニュー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.label": {
+    "message": "その他の設定",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.dashed": {
+    "message": "破線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.dotted": {
+    "message": "点線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.double": {
+    "message": "二重線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.groove": {
+    "message": "立体線（凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.inset": {
+    "message": "立体（全体凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.outset": {
+    "message": "立体（全体凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.ridge": {
+    "message": "立体（凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.solid": {
+    "message": "実線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.font_color.label": {
+    "message": "文字色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.bg_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.label": {
+    "message": "下の境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.dashed": {
+    "message": "破線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.dotted": {
+    "message": "点線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.double": {
+    "message": "二重線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.groove": {
+    "message": "立体線（凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.inset": {
+    "message": "立体（全体凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.outset": {
+    "message": "立体（全体凹）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.ridge": {
+    "message": "立体（凸）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.solid": {
+    "message": "実線",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.font_color.label": {
+    "message": "文字色",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.label": {
+    "message": "テーブルの見出し",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.label": {
+    "message": "テーブル",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.horizontal.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.horizontal.label": {
+    "message": "左／右",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.label": {
+    "message": "パディング",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.vertical.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.vertical.label": {
+    "message": "上／下",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.body_font.label": {
+    "message": "本文",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.label": {
+    "message": "見出し1（H1）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.letter_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.letter_spacing.label": {
+    "message": "文字間のスペース",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.label": {
+    "message": "見出し2（H2）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.letter_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.letter_spacing.label": {
+    "message": "文字間のスペース",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.label": {
+    "message": "見出し3（H3）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.letter_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.letter_spacing.label": {
+    "message": "文字間のスペース",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.label": {
+    "message": "見出し4（H4）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.letter_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.letter_spacing.label": {
+    "message": "文字間のスペース",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.label": {
+    "message": "見出し5（H5）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.letter_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.letter_spacing.label": {
+    "message": "文字間のスペース",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.label": {
+    "message": "見出し6（H6）",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.letter_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.letter_spacing.label": {
+    "message": "文字間のスペース",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.heading_toggle.label": {
+    "message": "各見出しレベルのコントロールを表示",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.label": {
+    "message": "見出し",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.capitalize": {
+    "message": "大文字にする",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.label": {
+    "message": "テキスト変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.label": {
+    "message": "タイポグラフィー",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.links.hover.label": {
+    "message": "カーソルを置く",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.links.label": {
+    "message": "リンク",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.content_width.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.content_width.label": {
+    "message": "最大コンテンツ幅",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.help_text": {
+    "message": "値はピクセル単位です",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.label": {
+    "message": "垂直方向のスペース",
+    "description": "",
+    "placeholders": null
+  }
+}

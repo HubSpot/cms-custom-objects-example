@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="59px" viewBox="0 0 52 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icons/Licensed</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HealthTech-Homepage" transform="translate(-625.000000, -1561.000000)" stroke="#5FB5FF">
+            <g id="Features" transform="translate(-177.000000, 1206.000000)">
+                <g id="Icons/Licensed" transform="translate(803.000000, 356.000000)">
+                    <g>
+                        <circle id="Oval" stroke-width="2" cx="42.5" cy="38.5" r="7.5"></circle>
+                        <polyline id="Path" stroke-width="2" points="47 44 47 56 43 54.3252445 39 56 39 45.0385071"></polyline>
+                        <path d="M32.9685274,52 L3.02006689,52 C1.35213,52 0,50.6568542 0,49 L0,3 C0,1.34314575 1.35213,0 3.02006689,0 L39.9799331,0 C41.64787,0 43,1.34314575 43,3 L43,26" id="Path" stroke-width="2" stroke-linecap="round"></path>
+                        <line x1="9" y1="20.5" x2="35" y2="20.5" id="Path-9-Copy" stroke-width="2" stroke-linecap="round"></line>
+                        <line x1="9" y1="11.5" x2="35" y2="11.5" id="Path-9" stroke-width="2" stroke-linecap="round"></line>
+                        <line x1="9" y1="36.5" x2="27" y2="36.5" id="Path-9-Copy-3" stroke-width="2" stroke-linecap="round"></line>
+                        <line x1="9" y1="28.5" x2="32" y2="28.5" id="Path-9-Copy-2" stroke-width="2" stroke-linecap="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

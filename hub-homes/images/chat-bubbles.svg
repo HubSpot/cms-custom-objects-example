@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="59px" viewBox="0 0 52 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chat-bubbles" transform="translate(3.000000, 6.000000)" stroke="#5FB5FF" stroke-width="2">
+            <path d="M34.5474202,43.9672295 C34.9600791,50.572949 45.9532319,43.6775409 45.8634531,34.7236148 C45.8634531,29.6185073 40.7970926,25.48 34.5474202,25.48 C28.2977478,25.48 23.296,28.5065549 23.296,33.6116623 C24.459164,42.2330618 34.5360261,35.4013022 34.5474202,43.9672295 Z" id="Oval-Copy-8"></path>
+            <path d="M18.5104009,29.9620616 C19.1892914,40.6678828 37.2748008,29.4925663 37.1271003,14.9810308 C37.1271003,6.70723596 28.7921201,0 18.5104009,0 C8.22868178,0 -3.26893002e-08,4.90510615 -3.26893002e-08,13.178901 C1.91359234,27.1515139 18.4916559,16.0793518 18.5104009,29.9620616 Z" id="Oval-Copy-9" transform="translate(18.564000, 17.108000) scale(-1, 1) translate(-18.564000, -17.108000) "></path>
+        </g>
+    </g>
+</svg>

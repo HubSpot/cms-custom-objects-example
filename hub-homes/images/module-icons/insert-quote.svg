@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="10px" viewBox="0 0 11 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon/Editors/Small/Insert Quote</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Editors/Small/Insert-Quote" fill="#3F5D75">
+            <g id="Icon/Editors/Small/Insert-Quote">
+                <path d="M0,8 C0,9.103 0.897,10 2,10 L3,10 C4.103,10 5,9.103 5,8 L5,6 C5,4.897 4.103,4 3,4 L2,4 L2,2 L3,2 C3.552,2 4,1.553 4,1 C4,0.447 3.552,0 3,0 L2,0 C0.897,0 0,0.897 0,2 L0,5.5 C0,5.559 0.024,5.61 0.034,5.667 C0.015,5.776 0,5.886 0,6 L0,8 Z" id="Fill-36"></path>
+                <path d="M6,8 C6,9.103 6.897,10 8,10 L9,10 C10.103,10 11,9.103 11,8 L11,6 C11,4.897 10.103,4 9,4 L8,4 L8,2 L9,2 C9.552,2 10,1.553 10,1 C10,0.447 9.552,0 9,0 L8,0 C6.897,0 6,0.897 6,2 L6,5.5 C6,5.559 6.024,5.61 6.034,5.667 C6.015,5.776 6,5.886 6,6 L6,8 Z" id="Fill-37"></path>
+            </g>
+        </g>
+    </g>
+</svg>

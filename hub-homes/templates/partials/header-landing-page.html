@@ -1,0 +1,23 @@
+<!--
+  templateType: global_partial
+  label: Landing Page Header
+-->
+<header class="header header--landing-page">
+  <div class="header__container">
+
+    {# Logo #}
+    <div class="header__logo">
+      {% module 'header_logo'
+        path='@hubspot/logo',
+        img={
+          'override_inherited_src': false,
+          'src': get_asset_url('../../images/session-theme-logo.png'),
+          'alt': 'Session logo',
+          'width': '114',
+          'height': '36'
+        }
+      %}
+    </div>
+
+  </div>
+</header>
