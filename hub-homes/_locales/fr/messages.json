@@ -1,0 +1,2092 @@
+{
+  "name": {
+    "message": "Session",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.body_bg.label": {
+    "message": "Couleur de l'arrière-plan du corps",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.label": {
+    "message": "Couleurs",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.primary.label": {
+    "message": "Principal",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.secondary.label": {
+    "message": "Secondaire",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.label": {
+    "message": "Polices",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.primary.label": {
+    "message": "Principal",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.secondary.label": {
+    "message": "Secondaire",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.choices.color": {
+    "message": "Couleur unie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.choices.image": {
+    "message": "Utiliser une image",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.label": {
+    "message": "Arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg_color.help_text": {
+    "message": "La couleur d'arrière-plan de la bannière sera utilisée comme arrière-plan uni sauf si une image d'arrière-plan est définie. Auquel cas, la couleur sera utilisée comme couleur par défaut de l'image de bannière",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.label": {
+    "message": "Bannière",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.listing_bg.help_text": {
+    "message": "Image d'arrière-plan utilisée sur la page de listing de blog pour tous les blogs qui utilisent le modèle « Session - listing de blog »",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.listing_bg.label": {
+    "message": "Image de bannière de listing du blog",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.label": {
+    "message": "Balises",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.label": {
+    "message": "Boutons",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.corner_radius.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.corner_radius.label": {
+    "message": "Rayon d'angle",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.label": {
+    "message": "Bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.dashed": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.dotted": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.double": {
+    "message": "Double",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.groove": {
+    "message": "Rainure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.inset": {
+    "message": "Bordure - bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.outset": {
+    "message": "Bordure - haut",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.ridge": {
+    "message": "Bordure en relief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.label": {
+    "message": "Bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.dashed": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.dotted": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.double": {
+    "message": "Double",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.groove": {
+    "message": "Rainure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.inset": {
+    "message": "Bordure - bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.outset": {
+    "message": "Bordure - haut",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.ridge": {
+    "message": "Bordure en relief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.label": {
+    "message": "Placer le curseur sur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.label": {
+    "message": "Principal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.corner_radius.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.corner_radius.label": {
+    "message": "Rayon d'angle",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.label": {
+    "message": "Bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.dashed": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.dotted": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.double": {
+    "message": "Double",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.groove": {
+    "message": "Rainure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.inset": {
+    "message": "Bordure - bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.outset": {
+    "message": "Bordure - haut",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.ridge": {
+    "message": "Bordure en relief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.label": {
+    "message": "Bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.dashed": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.dotted": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.double": {
+    "message": "Double",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.groove": {
+    "message": "Rainure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.inset": {
+    "message": "Bordure - bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.outset": {
+    "message": "Bordure - haut",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.ridge": {
+    "message": "Bordure en relief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.label": {
+    "message": "Placer le curseur sur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.label": {
+    "message": "Secondaire",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.label": {
+    "message": "Placer le curseur sur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.add_underline.label": {
+    "message": "Ajouter un soulignement",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.label": {
+    "message": "Souligné",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.label": {
+    "message": "Simple",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.add_underline.label": {
+    "message": "Ajouter un soulignement",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.label": {
+    "message": "Souligné",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.label": {
+    "message": "Taille",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.font_size.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.font_size.label": {
+    "message": "Taille de police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.horizontal_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.horizontal_spacing.label": {
+    "message": "Espacement horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.label": {
+    "message": "Grande",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.vertical_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.vertical_spacing.label": {
+    "message": "Espacement vertical",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.font_size.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.font_size.label": {
+    "message": "Taille de police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.horizontal_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.horizontal_spacing.label": {
+    "message": "Espacement horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.label": {
+    "message": "Ordinaire",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.vertical_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.vertical_spacing.label": {
+    "message": "Espacement vertical",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.font_size.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.font_size.label": {
+    "message": "Taille de police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.horizontal_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.horizontal_spacing.label": {
+    "message": "Espacement horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.label": {
+    "message": "Petite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.vertical_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.vertical_spacing.label": {
+    "message": "Espacement vertical",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.label": {
+    "message": "Bordure supérieure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.dashed": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.dotted": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.double": {
+    "message": "Double",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.groove": {
+    "message": "Rainure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.inset": {
+    "message": "Bordure - bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.outset": {
+    "message": "Bordure - haut",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.ridge": {
+    "message": "Bordure en relief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.font_color.label": {
+    "message": "Couleur de la police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.label": {
+    "message": "Pied de page",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.active.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.active.label": {
+    "message": "Actif",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.hover.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.hover.label": {
+    "message": "Placer le curseur sur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.corner_radius.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.corner_radius.label": {
+    "message": "Rayon d'angle",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.label": {
+    "message": "Bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.dashed": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.dotted": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.double": {
+    "message": "Double",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.groove": {
+    "message": "Rainure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.inset": {
+    "message": "Bordure - bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.outset": {
+    "message": "Bordure - haut",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.ridge": {
+    "message": "Bordure en relief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.corner_radius.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.corner_radius.label": {
+    "message": "Rayon d'angle",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.label": {
+    "message": "Bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.help_text": {
+    "message": "S'applique à tous les champs de texte et champs de menu déroulant. Ne s'applique pas aux cases à cocher, aux cases d'option, aux textes RGPD et aux champs de texte enrichi.",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.dashed": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.dotted": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.double": {
+    "message": "Double",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.groove": {
+    "message": "Rainure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.inset": {
+    "message": "Bordure - bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.outset": {
+    "message": "Bordure - haut",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.ridge": {
+    "message": "Bordure en relief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.label": {
+    "message": "Case à cocher/Case d'option",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.help_text": {
+    "message": "Contrôle les champs de cases à cocher/cases d'option de formulaire et les champs de cases à cocher RGPD",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.font.help_text": {
+    "message": "Contrôle les polices d'élément de champ de case à cocher/case d'option de formulaire et de champ de case à cocher RGPD",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.label": {
+    "message": "Texte RGPD",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.help_text": {
+    "message": "Contrôle le contenu du paragraphe des champs RGPD",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.label": {
+    "message": "Texte enrichi",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.help_text": {
+    "message": "Contrôle les champs de texte enrichi de formulaire",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.label": {
+    "message": "Champs",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.horizontal.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.horizontal.label": {
+    "message": "Gauche/droite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.label": {
+    "message": "Remplissage",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.help_text": {
+    "message": "S'applique à tous les champs de texte et champs de menu déroulant. Ne s'applique pas aux cases à cocher, aux cases d'option, aux textes du RGPD et aux champs de texte enrichi.",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.vertical.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.vertical.label": {
+    "message": "Haut/Bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.placeholder_color.label": {
+    "message": "Couleur de variable",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.help_text.label": {
+    "message": "Texte d'aide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.label": {
+    "message": "Formulaires",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.label": {
+    "message": "Libellés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.horizontal.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.horizontal.label": {
+    "message": "Gauche/droite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.label": {
+    "message": "Remplissage",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.vertical.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.vertical.label": {
+    "message": "Haut/Bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.horizontal.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.horizontal.label": {
+    "message": "Gauche/droite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.label": {
+    "message": "Remplissage",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.vertical.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.vertical.label": {
+    "message": "Haut/Bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.large": {
+    "message": "Grande",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.regular": {
+    "message": "Ordinaire",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.small": {
+    "message": "Petite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.label": {
+    "message": "Taille du bouton",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.primary": {
+    "message": "Principal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.secondary": {
+    "message": "Secondaire",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.simple": {
+    "message": "Simple",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.label": {
+    "message": "Style de bouton",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.label": {
+    "message": "Soumettre",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.corner_radius.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.corner_radius.label": {
+    "message": "Rayon d'angle",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.label": {
+    "message": "Bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.dashed": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.dotted": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.double": {
+    "message": "Double",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.groove": {
+    "message": "Rainure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.inset": {
+    "message": "Bordure - bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.outset": {
+    "message": "Bordure - haut",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.ridge": {
+    "message": "Bordure en relief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.label": {
+    "message": "Titre",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.horizontal.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.horizontal.label": {
+    "message": "Gauche/droite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.label": {
+    "message": "Remplissage",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.vertical.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.vertical.label": {
+    "message": "Haut/Bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.label": {
+    "message": "Bordure inférieure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.dashed": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.dotted": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.double": {
+    "message": "Double",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.groove": {
+    "message": "Rainure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.inset": {
+    "message": "Bordure - bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.outset": {
+    "message": "Bordure - haut",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.ridge": {
+    "message": "Bordure en relief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.label": {
+    "message": "En-tête du site web",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.label": {
+    "message": "Actif",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.label": {
+    "message": "Placer le curseur sur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.label": {
+    "message": "Plus de paramètres",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.label": {
+    "message": "Bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.dashed": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.dotted": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.double": {
+    "message": "Double",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.groove": {
+    "message": "Rainure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.inset": {
+    "message": "Bordure - bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.outset": {
+    "message": "Bordure - haut",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.ridge": {
+    "message": "Bordure en relief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.font_color.label": {
+    "message": "Couleur de la police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.bg_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.label": {
+    "message": "Bordure inférieure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.dashed": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.dotted": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.double": {
+    "message": "Double",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.groove": {
+    "message": "Rainure",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.inset": {
+    "message": "Bordure - bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.outset": {
+    "message": "Bordure - haut",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.ridge": {
+    "message": "Bordure en relief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.font_color.label": {
+    "message": "Couleur de la police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.label": {
+    "message": "Titre du tableau",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.label": {
+    "message": "Tableaux",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.horizontal.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.horizontal.label": {
+    "message": "Gauche/droite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.label": {
+    "message": "Remplissage",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.vertical.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.vertical.label": {
+    "message": "Haut/Bas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.body_font.label": {
+    "message": "Corps",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.label": {
+    "message": "En-tête un",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.letter_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.letter_spacing.label": {
+    "message": "Espacement des lettres",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.label": {
+    "message": "En-tête deux",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.letter_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.letter_spacing.label": {
+    "message": "Espacement des lettres",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.label": {
+    "message": "En-tête trois",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.letter_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.letter_spacing.label": {
+    "message": "Espacement des lettres",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.label": {
+    "message": "En-tête quatre",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.letter_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.letter_spacing.label": {
+    "message": "Espacement des lettres",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.label": {
+    "message": "En-tête cinq",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.letter_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.letter_spacing.label": {
+    "message": "Espacement des lettres",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.label": {
+    "message": "En-tête six",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.letter_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.letter_spacing.label": {
+    "message": "Espacement des lettres",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.heading_toggle.label": {
+    "message": "Afficher les contrôles pour chaque niveau d'en-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.label": {
+    "message": "En-têtes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.capitalize": {
+    "message": "Mettre en majuscules",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.lowercase": {
+    "message": "Minuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.none": {
+    "message": "Aucune",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.uppercase": {
+    "message": "Majuscule",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.label": {
+    "message": "Transformation du texte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.label": {
+    "message": "Typographie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.links.hover.label": {
+    "message": "Placer le curseur sur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.links.label": {
+    "message": "Liens",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.content_width.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.content_width.label": {
+    "message": "Largeur maximale du contenu",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Espacement",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.help_text": {
+    "message": "La valeur est en pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.label": {
+    "message": "Espacement vertical",
+    "description": "",
+    "placeholders": null
+  }
+}

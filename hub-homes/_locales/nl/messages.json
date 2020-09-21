@@ -1,0 +1,2092 @@
+{
+  "name": {
+    "message": "Sessie",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.body_bg.label": {
+    "message": "Achtergrondkleur tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.label": {
+    "message": "Kleuren",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.primary.label": {
+    "message": "Primair",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.secondary.label": {
+    "message": "Secundair",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.label": {
+    "message": "Lettertypes",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.primary.label": {
+    "message": "Primair",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.secondary.label": {
+    "message": "Secundair",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.choices.color": {
+    "message": "Effen kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.choices.image": {
+    "message": "Een afbeelding gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.label": {
+    "message": "Achtergrond",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg_color.help_text": {
+    "message": "De achtergrondkleur van de banner wordt als de effen achtergrondkleur gebruikt tenzij een achtergrondafbeelding is ingesteld. In dat geval wordt de kleur gebruikt als een terugvalkleur voor de bannerafbeelding.",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.label": {
+    "message": "Banner",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.listing_bg.help_text": {
+    "message": "Achtergrondafbeelding die op de blogvermeldingslijst voor alle blogs wordt gebruikt die de template 'Sessie - blogvermelding' gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.listing_bg.label": {
+    "message": "Blogvermelding bannerafbeelding",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.label": {
+    "message": "Tags",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.label": {
+    "message": "Knoppen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.corner_radius.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.corner_radius.label": {
+    "message": "Hoekradius",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.label": {
+    "message": "Rand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.dashed": {
+    "message": "Streepjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.dotted": {
+    "message": "Stippels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.double": {
+    "message": "Dubbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.groove": {
+    "message": "Groef",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.inset": {
+    "message": "Verzonken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.outset": {
+    "message": "Opstaand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.ridge": {
+    "message": "Ribbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.solid": {
+    "message": "Ononderbroken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.label": {
+    "message": "Rand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.dashed": {
+    "message": "Streepjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.dotted": {
+    "message": "Stippels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.double": {
+    "message": "Dubbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.groove": {
+    "message": "Groef",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.inset": {
+    "message": "Verzonken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.outset": {
+    "message": "Opstaand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.ridge": {
+    "message": "Ribbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.solid": {
+    "message": "Ononderbroken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.label": {
+    "message": "Aanwijzen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.label": {
+    "message": "Primair",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.corner_radius.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.corner_radius.label": {
+    "message": "Hoekradius",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.label": {
+    "message": "Rand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.dashed": {
+    "message": "Streepjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.dotted": {
+    "message": "Stippels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.double": {
+    "message": "Dubbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.groove": {
+    "message": "Groef",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.inset": {
+    "message": "Verzonken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.outset": {
+    "message": "Opstaand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.ridge": {
+    "message": "Ribbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.solid": {
+    "message": "Ononderbroken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.label": {
+    "message": "Rand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.dashed": {
+    "message": "Streepjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.dotted": {
+    "message": "Stippels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.double": {
+    "message": "Dubbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.groove": {
+    "message": "Groef",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.inset": {
+    "message": "Verzonken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.outset": {
+    "message": "Opstaand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.ridge": {
+    "message": "Ribbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.solid": {
+    "message": "Ononderbroken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.label": {
+    "message": "Aanwijzen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.label": {
+    "message": "Secundair",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.label": {
+    "message": "Aanwijzen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.add_underline.label": {
+    "message": "Onderstreping toevoegen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.label": {
+    "message": "Onderstrepen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.label": {
+    "message": "Eenvoudig",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.add_underline.label": {
+    "message": "Onderstreping toevoegen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.label": {
+    "message": "Onderstrepen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.label": {
+    "message": "Grootte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.font_size.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.font_size.label": {
+    "message": "Lettergrootte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.horizontal_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.horizontal_spacing.label": {
+    "message": "Horizontale afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.label": {
+    "message": "Groot",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.vertical_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.vertical_spacing.label": {
+    "message": "Verticale afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.font_size.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.font_size.label": {
+    "message": "Lettergrootte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.horizontal_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.horizontal_spacing.label": {
+    "message": "Horizontale afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.label": {
+    "message": "Standaard",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.vertical_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.vertical_spacing.label": {
+    "message": "Verticale afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.font_size.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.font_size.label": {
+    "message": "Lettergrootte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.horizontal_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.horizontal_spacing.label": {
+    "message": "Horizontale afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.label": {
+    "message": "Klein",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.vertical_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.vertical_spacing.label": {
+    "message": "Verticale afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.label": {
+    "message": "Bovenrand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.dashed": {
+    "message": "Streepjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.dotted": {
+    "message": "Stippels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.double": {
+    "message": "Dubbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.groove": {
+    "message": "Groef",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.inset": {
+    "message": "Verzonken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.outset": {
+    "message": "Opstaand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.ridge": {
+    "message": "Ribbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.solid": {
+    "message": "Ononderbroken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.font_color.label": {
+    "message": "Letterkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.label": {
+    "message": "Voettekst",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.active.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.active.label": {
+    "message": "Actief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.hover.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.hover.label": {
+    "message": "Aanwijzen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.corner_radius.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.corner_radius.label": {
+    "message": "Hoekradius",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.label": {
+    "message": "Rand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.dashed": {
+    "message": "Streepjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.dotted": {
+    "message": "Stippels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.double": {
+    "message": "Dubbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.groove": {
+    "message": "Groef",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.inset": {
+    "message": "Verzonken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.outset": {
+    "message": "Opstaand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.ridge": {
+    "message": "Ribbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.solid": {
+    "message": "Ononderbroken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.corner_radius.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.corner_radius.label": {
+    "message": "Hoekradius",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.label": {
+    "message": "Rand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.help_text": {
+    "message": "Is van toepassing op alle tekstvelden en selectievelden in vervolgkeuzemenu's. Is niet van toepassing op selectievakjes, keuzerondjes, AVG-tekst en velden met rich text.",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.dashed": {
+    "message": "Streepjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.dotted": {
+    "message": "Stippels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.double": {
+    "message": "Dubbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.groove": {
+    "message": "Groef",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.inset": {
+    "message": "Verzonken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.outset": {
+    "message": "Opstaand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.ridge": {
+    "message": "Ribbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.solid": {
+    "message": "Ononderbroken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.label": {
+    "message": "Selectievakje/keuzerondje",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.help_text": {
+    "message": "Bepaalt velden van selectievakjes/keuzerondjes voor formulieren en AVG-selectievakjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.font.help_text": {
+    "message": "Bepaalt lettertype van items voor velden bij selectievakjes/keuzerondjes voor formulieren en AVG-selectievakjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.label": {
+    "message": "AVG-tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.help_text": {
+    "message": "Bepaalt de paragraafinhoud van AVG-velden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.label": {
+    "message": "Tekst met opmaak",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.help_text": {
+    "message": "Bepaalt formuliervelden met richt text",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.label": {
+    "message": "Velden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.horizontal.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.horizontal.label": {
+    "message": "Links/rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.label": {
+    "message": "Opvulling",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.help_text": {
+    "message": "Is van toepassing op alle tekstvelden en selectievelden in vervolgkeuzemenu's. Is niet van toepassing op selectievakjes, keuzerondjes, AVG-tekst en velden met rich text.",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.vertical.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.vertical.label": {
+    "message": "Boven/onder",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.placeholder_color.label": {
+    "message": "Kleur tijdelijke aanduiding",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.help_text.label": {
+    "message": "Help-tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.label": {
+    "message": "Formulieren",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.label": {
+    "message": "Labels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.horizontal.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.horizontal.label": {
+    "message": "Links/rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.label": {
+    "message": "Opvulling",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.vertical.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.vertical.label": {
+    "message": "Boven/onder",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.horizontal.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.horizontal.label": {
+    "message": "Links/rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.label": {
+    "message": "Opvulling",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.vertical.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.vertical.label": {
+    "message": "Boven/onder",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.large": {
+    "message": "Groot",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.regular": {
+    "message": "Standaard",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.small": {
+    "message": "Klein",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.label": {
+    "message": "Knopgrootte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.primary": {
+    "message": "Primair",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.secondary": {
+    "message": "Secundair",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.simple": {
+    "message": "Eenvoudig",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.label": {
+    "message": "Knopstijl",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.label": {
+    "message": "Verzenden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.corner_radius.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.corner_radius.label": {
+    "message": "Hoekradius",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.label": {
+    "message": "Rand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.dashed": {
+    "message": "Streepjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.dotted": {
+    "message": "Stippels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.double": {
+    "message": "Dubbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.groove": {
+    "message": "Groef",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.inset": {
+    "message": "Verzonken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.outset": {
+    "message": "Opstaand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.ridge": {
+    "message": "Ribbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.solid": {
+    "message": "Ononderbroken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.label": {
+    "message": "Titel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.horizontal.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.horizontal.label": {
+    "message": "Links/rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.label": {
+    "message": "Opvulling",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.vertical.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.vertical.label": {
+    "message": "Boven/onder",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.label": {
+    "message": "Onderrand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.dashed": {
+    "message": "Streepjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.dotted": {
+    "message": "Stippels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.double": {
+    "message": "Dubbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.groove": {
+    "message": "Groef",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.inset": {
+    "message": "Verzonken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.outset": {
+    "message": "Opstaand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.ridge": {
+    "message": "Ribbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.solid": {
+    "message": "Ononderbroken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.label": {
+    "message": "Websiteheader",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.label": {
+    "message": "Actief",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.label": {
+    "message": "Aanwijzen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.label": {
+    "message": "Meer instellingen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.label": {
+    "message": "Rand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.dashed": {
+    "message": "Streepjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.dotted": {
+    "message": "Stippels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.double": {
+    "message": "Dubbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.groove": {
+    "message": "Groef",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.inset": {
+    "message": "Verzonken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.outset": {
+    "message": "Opstaand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.ridge": {
+    "message": "Ribbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.solid": {
+    "message": "Ononderbroken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.font_color.label": {
+    "message": "Letterkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.bg_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.label": {
+    "message": "Onderrand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.dashed": {
+    "message": "Streepjes",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.dotted": {
+    "message": "Stippels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.double": {
+    "message": "Dubbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.groove": {
+    "message": "Groef",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.inset": {
+    "message": "Verzonken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.outset": {
+    "message": "Opstaand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.ridge": {
+    "message": "Ribbel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.solid": {
+    "message": "Ononderbroken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.font_color.label": {
+    "message": "Letterkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.label": {
+    "message": "Tabelkop",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.label": {
+    "message": "Tabellen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.horizontal.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.horizontal.label": {
+    "message": "Links/rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.label": {
+    "message": "Opvulling",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.vertical.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.vertical.label": {
+    "message": "Boven/onder",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.body_font.label": {
+    "message": "Berichttekst",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.label": {
+    "message": "Kop een (H1)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.letter_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.letter_spacing.label": {
+    "message": "Letterafstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.label": {
+    "message": "Kop twee (H2)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.letter_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.letter_spacing.label": {
+    "message": "Letterafstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.label": {
+    "message": "Kop drie (H3)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.letter_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.letter_spacing.label": {
+    "message": "Letterafstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.label": {
+    "message": "Kop vier (H4)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.letter_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.letter_spacing.label": {
+    "message": "Letterafstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.label": {
+    "message": "Kop vijf (H5)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.letter_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.letter_spacing.label": {
+    "message": "Letterafstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.label": {
+    "message": "Kop zes (H6)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.letter_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.letter_spacing.label": {
+    "message": "Letterafstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.heading_toggle.label": {
+    "message": "Bedieningselementen voor elk kopniveau weergeven",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.label": {
+    "message": "Koppen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.none": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.label": {
+    "message": "Teksttransformatie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.label": {
+    "message": "Typografie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.links.hover.label": {
+    "message": "Aanwijzen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.links.label": {
+    "message": "Koppelingen",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.content_width.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.content_width.label": {
+    "message": "Maximum inhoudbreedte",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.help_text": {
+    "message": "Waarde is in pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.label": {
+    "message": "Verticale afstand",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "label" : "Hub Homes",
+  "preview_path" : "./templates/home.html",
+  "screenshot_path" : "./images/template-previews/session.png",
+  "enable_domain_stylesheets" : null
+}

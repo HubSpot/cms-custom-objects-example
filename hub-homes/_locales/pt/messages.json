@@ -1,0 +1,2092 @@
+{
+  "name": {
+    "message": "Sessão",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.body_bg.label": {
+    "message": "Cor de fundo do corpo",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.label": {
+    "message": "Cores",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.primary.label": {
+    "message": "Principal",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.secondary.label": {
+    "message": "Secundário",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.label": {
+    "message": "Fontes",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.primary.label": {
+    "message": "Principal",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.secondary.label": {
+    "message": "Secundário",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.choices.color": {
+    "message": "Cor sólida",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.choices.image": {
+    "message": "Usar uma imagem",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.label": {
+    "message": "Plano de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg_color.help_text": {
+    "message": "A cor de fundo do banner será usada como fundo sólido, a menos que uma imagem de funda seja definida. Neste caso, a cor será usada como cor de fallback para a imagem do banner.",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.label": {
+    "message": "Banner",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.listing_bg.help_text": {
+    "message": "A imagem de fundo é usada na página de listas de blog para todos os blogs que usam o modelo \"Sessão - listas de blog\" ",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.listing_bg.label": {
+    "message": "Imagem do banner de lista de blog",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.label": {
+    "message": "Tags",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.label": {
+    "message": "Botões",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.corner_radius.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.corner_radius.label": {
+    "message": "Raio de canto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.label": {
+    "message": "Borda",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.dashed": {
+    "message": "Tracejado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.dotted": {
+    "message": "Pontilhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.double": {
+    "message": "Duplo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.groove": {
+    "message": "Groove",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.inset": {
+    "message": "Baixo-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.outset": {
+    "message": "Alto-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.ridge": {
+    "message": "Ressalto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.solid": {
+    "message": "Sólido",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.label": {
+    "message": "Borda",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.dashed": {
+    "message": "Tracejado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.dotted": {
+    "message": "Pontilhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.double": {
+    "message": "Duplo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.groove": {
+    "message": "Groove",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.inset": {
+    "message": "Baixo-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.outset": {
+    "message": "Alto-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.ridge": {
+    "message": "Ressalto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.solid": {
+    "message": "Sólido",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.label": {
+    "message": "Passar o mouse",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.label": {
+    "message": "Principal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.corner_radius.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.corner_radius.label": {
+    "message": "Raio de canto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.label": {
+    "message": "Borda",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.dashed": {
+    "message": "Tracejado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.dotted": {
+    "message": "Pontilhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.double": {
+    "message": "Duplo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.groove": {
+    "message": "Groove",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.inset": {
+    "message": "Baixo-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.outset": {
+    "message": "Alto-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.ridge": {
+    "message": "Ressalto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.solid": {
+    "message": "Sólido",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.label": {
+    "message": "Borda",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.dashed": {
+    "message": "Tracejado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.dotted": {
+    "message": "Pontilhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.double": {
+    "message": "Duplo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.groove": {
+    "message": "Groove",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.inset": {
+    "message": "Baixo-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.outset": {
+    "message": "Alto-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.ridge": {
+    "message": "Ressalto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.solid": {
+    "message": "Sólido",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.label": {
+    "message": "Passar o mouse",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.label": {
+    "message": "Secundário",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.label": {
+    "message": "Passar o mouse",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.add_underline.label": {
+    "message": "Adicionar sublinhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.label": {
+    "message": "Sublinhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.label": {
+    "message": "Simples",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.add_underline.label": {
+    "message": "Adicionar sublinhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.label": {
+    "message": "Sublinhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.label": {
+    "message": "Tamanho",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.font_size.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.font_size.label": {
+    "message": "Tamanho da fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.horizontal_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.horizontal_spacing.label": {
+    "message": "Espaçamento horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.label": {
+    "message": "Grande",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.vertical_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.vertical_spacing.label": {
+    "message": "Espaçamento vertical",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.font_size.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.font_size.label": {
+    "message": "Tamanho da fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.horizontal_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.horizontal_spacing.label": {
+    "message": "Espaçamento horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.label": {
+    "message": "Regular",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.vertical_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.vertical_spacing.label": {
+    "message": "Espaçamento vertical",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.font_size.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.font_size.label": {
+    "message": "Tamanho da fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.horizontal_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.horizontal_spacing.label": {
+    "message": "Espaçamento horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.label": {
+    "message": "Pequeno",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.vertical_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.vertical_spacing.label": {
+    "message": "Espaçamento vertical",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.label": {
+    "message": "Borda superior",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.dashed": {
+    "message": "Tracejado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.dotted": {
+    "message": "Pontilhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.double": {
+    "message": "Duplo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.groove": {
+    "message": "Groove",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.inset": {
+    "message": "Baixo-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.outset": {
+    "message": "Alto-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.ridge": {
+    "message": "Ressalto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.solid": {
+    "message": "Sólido",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.font_color.label": {
+    "message": "Cor da fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.label": {
+    "message": "Rodapé",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.active.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.active.label": {
+    "message": "Ativo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.hover.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.hover.label": {
+    "message": "Passar o mouse",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.corner_radius.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.corner_radius.label": {
+    "message": "Raio de canto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.label": {
+    "message": "Borda",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.dashed": {
+    "message": "Tracejado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.dotted": {
+    "message": "Pontilhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.double": {
+    "message": "Duplo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.groove": {
+    "message": "Groove",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.inset": {
+    "message": "Baixo-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.outset": {
+    "message": "Alto-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.ridge": {
+    "message": "Ressalto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.solid": {
+    "message": "Sólido",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.corner_radius.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.corner_radius.label": {
+    "message": "Raio de canto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.label": {
+    "message": "Borda",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.help_text": {
+    "message": "Aplica-se a todos os campos de texto e campos de seleção suspensos. Não se aplica a campos de caixa de seleção, botão de opção, texto do GDPR e rich text.",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.dashed": {
+    "message": "Tracejado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.dotted": {
+    "message": "Pontilhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.double": {
+    "message": "Duplo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.groove": {
+    "message": "Groove",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.inset": {
+    "message": "Baixo-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.outset": {
+    "message": "Alto-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.ridge": {
+    "message": "Ressalto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.solid": {
+    "message": "Sólido",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.label": {
+    "message": "Campos de caixa de seleção/opção",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.help_text": {
+    "message": "Controla os campos de caixa de seleção/opção dos formulários e os campos de caixa de seleção do GDPR",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.font.help_text": {
+    "message": "Controla as fontes dos campos de caixa de seleção/opção dos formulários e dos campos de caixa de seleção do GDPR",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.label": {
+    "message": "Texto do GDPR",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.help_text": {
+    "message": "Controla o conteúdo do parágrafo dos campos de GDPR",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.label": {
+    "message": "Rich text",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.help_text": {
+    "message": "Controla os campos de rich text do formulário",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.label": {
+    "message": "Campos",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.horizontal.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.horizontal.label": {
+    "message": "Esquerda/direita",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.label": {
+    "message": "Horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.help_text": {
+    "message": "Aplica-se a todos os campos de texto e campos de seleção suspensos. Não se aplica a campos de caixa de seleção, botão de opção, texto do GDPR e rich text.",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.vertical.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.vertical.label": {
+    "message": "Superior/inferior",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.placeholder_color.label": {
+    "message": "Cor do espaço reservado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.help_text.label": {
+    "message": "Texto de ajuda",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.label": {
+    "message": "Formulários",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.label": {
+    "message": "Rótulos",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.horizontal.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.horizontal.label": {
+    "message": "Esquerda/direita",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.label": {
+    "message": "Horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.vertical.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.vertical.label": {
+    "message": "Superior/inferior",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.horizontal.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.horizontal.label": {
+    "message": "Esquerda/direita",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.label": {
+    "message": "Horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.vertical.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.vertical.label": {
+    "message": "Superior/inferior",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.large": {
+    "message": "Grande",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.regular": {
+    "message": "Regular",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.small": {
+    "message": "Pequeno",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.label": {
+    "message": "Tamanho do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.primary": {
+    "message": "Principal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.secondary": {
+    "message": "Secundário",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.simple": {
+    "message": "Simples",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.label": {
+    "message": "Estilo do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.label": {
+    "message": "Enviar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.corner_radius.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.corner_radius.label": {
+    "message": "Raio de canto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.label": {
+    "message": "Borda",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.dashed": {
+    "message": "Tracejado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.dotted": {
+    "message": "Pontilhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.double": {
+    "message": "Duplo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.groove": {
+    "message": "Groove",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.inset": {
+    "message": "Baixo-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.outset": {
+    "message": "Alto-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.ridge": {
+    "message": "Ressalto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.solid": {
+    "message": "Sólido",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.label": {
+    "message": "Título",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.horizontal.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.horizontal.label": {
+    "message": "Esquerda/direita",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.label": {
+    "message": "Horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.vertical.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.vertical.label": {
+    "message": "Superior/inferior",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.label": {
+    "message": "Borda inferior",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.dashed": {
+    "message": "Tracejado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.dotted": {
+    "message": "Pontilhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.double": {
+    "message": "Duplo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.groove": {
+    "message": "Groove",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.inset": {
+    "message": "Baixo-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.outset": {
+    "message": "Alto-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.ridge": {
+    "message": "Ressalto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.solid": {
+    "message": "Sólido",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.label": {
+    "message": "Cabeçalho do site",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.label": {
+    "message": "Ativo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.label": {
+    "message": "Passar o mouse",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.label": {
+    "message": "Mais configurações",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.label": {
+    "message": "Borda",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.dashed": {
+    "message": "Tracejado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.dotted": {
+    "message": "Pontilhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.double": {
+    "message": "Duplo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.groove": {
+    "message": "Groove",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.inset": {
+    "message": "Baixo-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.outset": {
+    "message": "Alto-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.ridge": {
+    "message": "Ressalto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.solid": {
+    "message": "Sólido",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.font_color.label": {
+    "message": "Cor da fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.bg_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.label": {
+    "message": "Borda inferior",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.dashed": {
+    "message": "Tracejado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.dotted": {
+    "message": "Pontilhado",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.double": {
+    "message": "Duplo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.groove": {
+    "message": "Groove",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.inset": {
+    "message": "Baixo-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.outset": {
+    "message": "Alto-relevo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.ridge": {
+    "message": "Ressalto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.solid": {
+    "message": "Sólido",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.font_color.label": {
+    "message": "Cor da fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.label": {
+    "message": "Cabeçalho da tabela",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.label": {
+    "message": "Tabelas",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.horizontal.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.horizontal.label": {
+    "message": "Esquerda/direita",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.label": {
+    "message": "Horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.vertical.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.vertical.label": {
+    "message": "Superior/inferior",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.body_font.label": {
+    "message": "Corpo",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.label": {
+    "message": "Cabeçalho um (H1)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.letter_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.letter_spacing.label": {
+    "message": "Espaçamento entre letras",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.label": {
+    "message": "Cabeçalho dois (H2)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.letter_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.letter_spacing.label": {
+    "message": "Espaçamento entre letras",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.label": {
+    "message": "Cabeçalho três (H3)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.letter_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.letter_spacing.label": {
+    "message": "Espaçamento entre letras",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.label": {
+    "message": "Cabeçalho quatro (H4)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.letter_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.letter_spacing.label": {
+    "message": "Espaçamento entre letras",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.label": {
+    "message": "Cabeçalho cinco (H5)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.letter_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.letter_spacing.label": {
+    "message": "Espaçamento entre letras",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.label": {
+    "message": "Cabeçalho seis (H6)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.letter_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.letter_spacing.label": {
+    "message": "Espaçamento entre letras",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.heading_toggle.label": {
+    "message": "Mostrar controles para cada nível de cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.label": {
+    "message": "Cabeçalhos",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.capitalize": {
+    "message": "Capitalizar",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.none": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.uppercase": {
+    "message": "Maiúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.label": {
+    "message": "Transformação de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.label": {
+    "message": "Tipografia",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.links.hover.label": {
+    "message": "Passar o mouse",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.links.label": {
+    "message": "Links",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.content_width.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.content_width.label": {
+    "message": "Largura máxima do conteúdo",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.help_text": {
+    "message": "O valor está em pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.label": {
+    "message": "Espaçamento vertical",
+    "description": "",
+    "placeholders": null
+  }
+}

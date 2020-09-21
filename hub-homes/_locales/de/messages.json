@@ -1,0 +1,2092 @@
+{
+  "name": {
+    "message": "Sitzung",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.body_bg.label": {
+    "message": "Hintergrundfarbe für Text",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.label": {
+    "message": "Farben",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.primary.label": {
+    "message": "Primär",
+    "description": "",
+    "placeholders": null
+  },
+  "colors.secondary.label": {
+    "message": "Sekundär",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.label": {
+    "message": "Schriftarten",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.primary.label": {
+    "message": "Primär",
+    "description": "",
+    "placeholders": null
+  },
+  "fonts.secondary.label": {
+    "message": "Sekundär",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.choices.color": {
+    "message": "Einfarbig",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.choices.image": {
+    "message": "Ein Bild verwenden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg.label": {
+    "message": "Hintergrund",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg_color.help_text": {
+    "message": "Die Hintergrundfarbe des Banners wird als fester Hintergrund verwendet, es sei denn, es wurde ein Hintergrundbild festgelegt. In diesem Fall wird die Farbe als Standardfarbe für das Bannerbild verwendet.",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.blog_banner_bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.label": {
+    "message": "Banner",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.listing_bg.help_text": {
+    "message": "Hintergrundbild, das auf der Blog-Listing-Seite für alle Blogs verwendet wird, die die Vorlage „Session - Blog-Listing“ verwenden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.blog_banner_images.listing_bg.label": {
+    "message": "Bild für Blog-Listing-Banner",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.blog.tags.label": {
+    "message": "Tags",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.label": {
+    "message": "Buttons",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.corner_radius.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.corner_radius.label": {
+    "message": "Eckenradius",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.label": {
+    "message": "Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.dashed": {
+    "message": "Gestrichelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.dotted": {
+    "message": "Gepunktete",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.double": {
+    "message": "Doppelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.groove": {
+    "message": "Rille",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.inset": {
+    "message": "Einsatz",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.outset": {
+    "message": "Anfang",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.ridge": {
+    "message": "Grat",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.border.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.label": {
+    "message": "Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.dashed": {
+    "message": "Gestrichelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.dotted": {
+    "message": "Gepunktete",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.double": {
+    "message": "Doppelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.groove": {
+    "message": "Rille",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.inset": {
+    "message": "Einsatz",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.outset": {
+    "message": "Anfang",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.ridge": {
+    "message": "Grat",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.border.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.hover.label": {
+    "message": "Zeigen auf",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.label": {
+    "message": "Primär",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.primary.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.corner_radius.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.corner_radius.label": {
+    "message": "Eckenradius",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.label": {
+    "message": "Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.dashed": {
+    "message": "Gestrichelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.dotted": {
+    "message": "Gepunktete",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.double": {
+    "message": "Doppelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.groove": {
+    "message": "Rille",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.inset": {
+    "message": "Einsatz",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.outset": {
+    "message": "Anfang",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.ridge": {
+    "message": "Grat",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.border.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.label": {
+    "message": "Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.dashed": {
+    "message": "Gestrichelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.dotted": {
+    "message": "Gepunktete",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.double": {
+    "message": "Doppelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.groove": {
+    "message": "Rille",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.inset": {
+    "message": "Einsatz",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.outset": {
+    "message": "Anfang",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.ridge": {
+    "message": "Grat",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.border.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.hover.label": {
+    "message": "Zeigen auf",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.label": {
+    "message": "Sekundär",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.secondary.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.label": {
+    "message": "Zeigen auf",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.add_underline.label": {
+    "message": "Unterstrich hinzufügen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.label": {
+    "message": "Unterstreichen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.hover.underline.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.label": {
+    "message": "Einfach",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.add_underline.label": {
+    "message": "Unterstrich hinzufügen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.label": {
+    "message": "Unterstreichen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.simple.underline.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.label": {
+    "message": "Größe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.font_size.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.font_size.label": {
+    "message": "Schriftgröße",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.horizontal_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.horizontal_spacing.label": {
+    "message": "Horizontale Abstände",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.label": {
+    "message": "Groß",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.vertical_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.large.vertical_spacing.label": {
+    "message": "Vertikale Abstände",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.font_size.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.font_size.label": {
+    "message": "Schriftgröße",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.horizontal_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.horizontal_spacing.label": {
+    "message": "Horizontale Abstände",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.label": {
+    "message": "Normal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.vertical_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.regular.vertical_spacing.label": {
+    "message": "Vertikale Abstände",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.font_size.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.font_size.label": {
+    "message": "Schriftgröße",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.horizontal_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.horizontal_spacing.label": {
+    "message": "Horizontale Abstände",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.label": {
+    "message": "Klein",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.vertical_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.buttons.size.small.vertical_spacing.label": {
+    "message": "Vertikale Abstände",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.label": {
+    "message": "Oberer Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.dashed": {
+    "message": "Gestrichelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.dotted": {
+    "message": "Gepunktete",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.double": {
+    "message": "Doppelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.groove": {
+    "message": "Rille",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.inset": {
+    "message": "Einsatz",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.outset": {
+    "message": "Anfang",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.ridge": {
+    "message": "Grat",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.border.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.font_color.label": {
+    "message": "Schriftartfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.label": {
+    "message": "Fußzeile",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.active.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.active.label": {
+    "message": "Aktiv",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.hover.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.hover.label": {
+    "message": "Zeigen auf",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.label": {
+    "message": "Menü",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.footer.menu.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.corner_radius.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.corner_radius.label": {
+    "message": "Eckenradius",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.label": {
+    "message": "Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.dashed": {
+    "message": "Gestrichelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.dotted": {
+    "message": "Gepunktete",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.double": {
+    "message": "Doppelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.groove": {
+    "message": "Rille",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.inset": {
+    "message": "Einsatz",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.outset": {
+    "message": "Anfang",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.ridge": {
+    "message": "Grat",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.border.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.corner_radius.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.corner_radius.label": {
+    "message": "Eckenradius",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.label": {
+    "message": "Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.help_text": {
+    "message": "Gilt für alle Textfelder und Dropdown-Auswahlfelder. Gilt nicht für Kontrollkästchen, Optionsfelder, DSGVO-Text- und Rich-Text-Felder.",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.dashed": {
+    "message": "Gestrichelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.dotted": {
+    "message": "Gepunktete",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.double": {
+    "message": "Doppelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.groove": {
+    "message": "Rille",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.inset": {
+    "message": "Einsatz",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.outset": {
+    "message": "Anfang",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.ridge": {
+    "message": "Grat",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.border.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.label": {
+    "message": "Kontrollkästchen/Optionsfeld",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.help_text": {
+    "message": "Steuert Formular-Kontrollkästchen-/Optionsfeld-Felder und DSGVO-Kontrollkästchen-Felder",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.checkbox_radio.font.help_text": {
+    "message": "Steuert die Schriftarten der Elemente von Kontrollkästchen/Optionsfeldern von Formularen und DSGVO-Kontrollkästchen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.label": {
+    "message": "DSGVO-Text",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.help_text": {
+    "message": "Steuert den Absatzinhalt von DSGVO-Feldern",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.gdpr_text.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.label": {
+    "message": "Rich-Text",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.help_text": {
+    "message": "Steuert Formular-Rich-Text-Felder",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.rich_text.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.label": {
+    "message": "Felder",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.horizontal.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.horizontal.label": {
+    "message": "Links/rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.label": {
+    "message": "Auffüllung",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.help_text": {
+    "message": "Gilt für alle Textfelder und Dropdown-Auswahlfelder. Gilt nicht für Kontrollkästchen, Optionsfelder, DSGVO-Text- und Rich-Text-Felder.",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.vertical.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.padding.vertical.label": {
+    "message": "Oben/Unten",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.fields.placeholder_color.label": {
+    "message": "Platzhalterfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.help_text.label": {
+    "message": "Hilfetext",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.label": {
+    "message": "Formulare",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.label": {
+    "message": "Labels",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.horizontal.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.horizontal.label": {
+    "message": "Links/rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.label": {
+    "message": "Auffüllung",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.vertical.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.labels.padding.vertical.label": {
+    "message": "Oben/Unten",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.horizontal.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.horizontal.label": {
+    "message": "Links/rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.label": {
+    "message": "Auffüllung",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.vertical.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.padding.vertical.label": {
+    "message": "Oben/Unten",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.large": {
+    "message": "Groß",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.regular": {
+    "message": "Normal",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.choices.small": {
+    "message": "Klein",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_size.label": {
+    "message": "Button-Größe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.primary": {
+    "message": "Primär",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.secondary": {
+    "message": "Sekundär",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.choices.simple": {
+    "message": "Einfach",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.button_style.label": {
+    "message": "Button-Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.submit.label": {
+    "message": "OK",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.corner_radius.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.corner_radius.label": {
+    "message": "Eckenradius",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.label": {
+    "message": "Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.dashed": {
+    "message": "Gestrichelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.dotted": {
+    "message": "Gepunktete",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.double": {
+    "message": "Doppelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.groove": {
+    "message": "Rille",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.inset": {
+    "message": "Einsatz",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.outset": {
+    "message": "Anfang",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.ridge": {
+    "message": "Grat",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.border.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.label": {
+    "message": "Titel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.horizontal.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.horizontal.label": {
+    "message": "Links/rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.label": {
+    "message": "Auffüllung",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.vertical.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.padding.vertical.label": {
+    "message": "Oben/Unten",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.forms.title.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.label": {
+    "message": "Unterer Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.dashed": {
+    "message": "Gestrichelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.dotted": {
+    "message": "Gepunktete",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.double": {
+    "message": "Doppelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.groove": {
+    "message": "Rille",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.inset": {
+    "message": "Einsatz",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.outset": {
+    "message": "Anfang",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.ridge": {
+    "message": "Grat",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.border.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.label": {
+    "message": "Kopfzeile der Website",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.active.label": {
+    "message": "Aktiv",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.hover.label": {
+    "message": "Zeigen auf",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.label": {
+    "message": "Menü",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.header.menu.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.label": {
+    "message": "Weitere Einstellungen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.label": {
+    "message": "Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.dashed": {
+    "message": "Gestrichelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.dotted": {
+    "message": "Gepunktete",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.double": {
+    "message": "Doppelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.groove": {
+    "message": "Rille",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.inset": {
+    "message": "Einsatz",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.outset": {
+    "message": "Anfang",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.ridge": {
+    "message": "Grat",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.border.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.font_color.label": {
+    "message": "Schriftartfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.bg_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.label": {
+    "message": "Unterer Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.dashed": {
+    "message": "Gestrichelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.dotted": {
+    "message": "Gepunktete",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.double": {
+    "message": "Doppelt",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.groove": {
+    "message": "Rille",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.inset": {
+    "message": "Einsatz",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.outset": {
+    "message": "Anfang",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.ridge": {
+    "message": "Grat",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.border.width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.font_color.label": {
+    "message": "Schriftartfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.head.label": {
+    "message": "Tabellenkopf",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.label": {
+    "message": "Tabellen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.horizontal.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.horizontal.label": {
+    "message": "Links/rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.label": {
+    "message": "Auffüllung",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.vertical.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.tables.padding.vertical.label": {
+    "message": "Oben/Unten",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.body_font.label": {
+    "message": "Textkörper",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.label": {
+    "message": "Überschrift eins (H1)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.letter_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.letter_spacing.label": {
+    "message": "Buchstabenabstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h1.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.label": {
+    "message": "Überschrift zwei (H2)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.letter_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.letter_spacing.label": {
+    "message": "Buchstabenabstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h2.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.label": {
+    "message": "Überschrift drei (H3)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.letter_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.letter_spacing.label": {
+    "message": "Buchstabenabstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h3.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.label": {
+    "message": "Überschrift vier (H4)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.letter_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.letter_spacing.label": {
+    "message": "Buchstabenabstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h4.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.label": {
+    "message": "Überschrift fünf (H5)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.letter_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.letter_spacing.label": {
+    "message": "Buchstabenabstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h5.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.label": {
+    "message": "Überschrift sechs (H6)",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.letter_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.letter_spacing.label": {
+    "message": "Buchstabenabstand",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.h6.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.heading_toggle.label": {
+    "message": "Steuerungen für jede Überschriftenebene anzeigen",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.label": {
+    "message": "Überschriften",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.none": {
+    "message": "Nicht vorhanden",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.headings.text_transform.label": {
+    "message": "Text umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.label": {
+    "message": "Typografie",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.links.hover.label": {
+    "message": "Zeigen auf",
+    "description": "",
+    "placeholders": null
+  },
+  "global.typography.links.label": {
+    "message": "Links",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.content_width.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.content_width.label": {
+    "message": "Maximale Content-Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.label": {
+    "message": "Abstand",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.help_text": {
+    "message": "Wert in Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.label": {
+    "message": "Vertikale Abstände",
+    "description": "",
+    "placeholders": null
+  }
+}

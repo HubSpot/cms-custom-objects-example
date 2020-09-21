@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="92px" height="47px" viewBox="0 0 92 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icon/Double Heart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="HealthTech-Homepage" transform="translate(-659.000000, -3576.000000)" stroke="#5FB5FF">
+            <g id="Services" transform="translate(72.000000, 3361.000000)">
+                <g id="Couples" transform="translate(431.000000, 151.000000)">
+                    <g id="Icons/Double-Heart" transform="translate(157.000000, 65.000000)">
+                        <g id="Icon/Double-Heart">
+                            <g id="Icon/heart" transform="translate(36.000000, 0.000000)" stroke-width="2">
+                                <path d="M3.68448613,39.5390765 C0.0291950262,35.6066037 -1.43167433,29.6889332 1.75127152,24.1696839 C7.02791959,15.019941 15.315912,6.98387716 26.6152487,0.0614924934 C38.1352939,6.98387716 46.4232863,15.019941 51.479226,24.1696839 C59.0631354,37.8942983 41.4698191,53.9439757 26.4892699,36.0825777 C23.6403413,40.4091455 20.2744439,42.7604766 16.9146138,43.6455619" id="Path" transform="translate(26.650892, 22.030746) scale(1, -1) translate(-26.650892, -22.030746) "></path>
+                                <path d="M43.3410497,5.3951222 C47.3734837,7.3282357 48.9290274,10.5016467 48.0076809,14.9153552" id="Path-11"></path>
+                            </g>
+                            <g id="Icon/heart" stroke-width="2">
+                                <path d="M47.9071267,18.5464224 C49.2374969,20.3522187 50.4281966,22.2061417 51.479226,24.1081914 C59.0631354,37.8328058 41.4698191,53.8824832 26.4892699,36.0210852 C14.6367496,54.0210912 -6.16370059,37.8328058 1.75127152,24.1081914 C7.02791959,14.9584485 15.315912,6.92238467 26.6152487,0 C33.5640036,5.19891671 38.253022,8.87393855 40.6823039,11.0250655" id="Path" transform="translate(26.650892, 22.000000) scale(1, -1) translate(-26.650892, -22.000000) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

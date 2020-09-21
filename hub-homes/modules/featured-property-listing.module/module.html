@@ -1,0 +1,52 @@
+{% for item in module.properties %}
+  <div class="listing">
+    <div class="listing-col">
+      <img src="{{ item.Property.properties.property_image }}" class="listing-image">  
+    </div>
+  
+    <div class="listing-col"> 
+      <div class="listing-header--container">
+         <span class="listing-header">
+           {{ module.listing_header }} 
+         </span> 
+     </div>
+      <br> 
+	    <div class="listing-address">
+        {{ item.Property.properties.address }}
+      </div>
+      <p>
+        <div class="listing-property-details">
+          <div class="listing-property-details--header">
+            Price
+          </div>
+          ${{ item.Property.properties.price }}   
+        </div>
+        <div class="listing-property-details">
+           <div class="listing-property-details--header">
+             Beds
+          </div>
+           {{ item.Property.properties.bedrooms }}
+         </div>
+        <div class="listing-property-details">
+          <div class="listing-property-details--header">
+            Baths
+          </div>
+          {{ item.Property.properties.bathrooms }}
+        </div>
+        <div class="listing-property-details">
+          <div class="listing-property-details--header">
+            Square Feet
+          </div>
+          {{ item.Property.properties.square_feet }}
+        </div>
+      </p>   
+    </div>  
+  </div>
+{% endfor %}
+{% for item in module.properties %}
+  <div class="listing-details-link--container"> 
+    <span class="listing-details-link"> 
+      <a href="/property?property={{item.Property.properties.id}}"> See details </a> 
+    </span>   
+  </div>
+{% endfor %}

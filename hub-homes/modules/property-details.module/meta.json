@@ -1,0 +1,8 @@
+{
+  "global" : false,
+  "smart_type" : "NOT_SMART",
+  "icon" : "map-pin:SOLID",
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 4330674095,
+  "is_available_for_new_content" : true
+}

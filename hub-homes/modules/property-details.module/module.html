@@ -1,0 +1,16 @@
+{% if request.query_dict.property %}
+  <!-- Example: https://cobject.thefriendlydeveloper.com/detail-and-query-render-test?property=1123644 to identify https://app.hubspotqa.com/contacts/102940484/record/2-596521/1123644/ -->
+
+  <!-- RENDER DETAIL VIEW -->
+  <!--  request.query_dict.property is the id of a property, coming from the property query string value -->
+  {% set property = crm_object("property-listing", request.query_dict.property, "address, bedrooms, bathrooms, property_image, price, square_feet") %}
+  {{ property }}
+  <!-- Add a conditional to make sure that the property is actually found! -->
+  <!-- Much of the code for the detail view already exists in https://app.hubspotqa.com/design-manager/102940484/modules/4312815278?tfid=4290938807 -->
+  <!-- Example: https://cobject.thefriendlydeveloper.com/properties/54-manfield-ave -->
+
+{% else %}
+  <div>
+    No property found!  
+  </div>
+{% endif %}

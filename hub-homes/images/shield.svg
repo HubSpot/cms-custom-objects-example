@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="59px" viewBox="0 0 52 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shield" transform="translate(9.000000, 10.000000)" stroke="#5FB5FF" stroke-width="2">
+            <path d="M0.883175663,4.50082891 C7.40239277,5.4266164 12.8532963,3.9263401 17.2358864,0 C22.0472697,3.92996388 27.4563015,5.43544904 33.4629818,4.51645548 L33.4629741,4.51640536 C33.7905611,4.4662861 34.0967526,4.69121816 34.1468718,5.01880519 C34.1502018,5.04057063 34.1523313,5.06250286 34.1532506,5.08450236 C34.7785997,20.0500706 29.1301564,31.1552364 17.2079206,38.4 C4.49434288,30.4627792 -1.17443862,19.3419124 0.201576067,5.03739958 L0.20159405,5.03740131 C0.233322666,4.70756299 0.526430586,4.46589731 0.856268913,4.49762593 C0.865260798,4.4984909 0.874232002,4.49955883 0.883175663,4.50082891 Z" id="Rectangle-Copy-6"></path>
+            <line x1="17.1" y1="6" x2="17.1" y2="31.8" id="Path-4-Copy" stroke-linecap="round"></line>
+            <line x1="23.1" y1="10.2" x2="23.1" y2="19.8" id="Path-4-Copy-6" stroke-linecap="round"></line>
+            <line x1="9.6" y1="13.8" x2="9.6" y2="22.8" id="Path-4-Copy-3" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>

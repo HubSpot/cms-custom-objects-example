@@ -1,0 +1,109 @@
+/* All Property Listings module styling */
+
+/* all-property-listings module styling */
+
+@media (min-width: 1209px) {
+  .property-list {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .property-list-item {
+    width: 50%;
+  }
+}
+
+.property-image {
+  height: 310px;
+  width: 450px;
+}
+
+.property-address {
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.property-price {
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+.property-price--header {
+  color: #dcceca;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+}
+
+.property-details-link--container {
+  margin-bottom: 80px; 
+}
+
+.property-details-link {
+  background-color: #000000;
+  font-size: 12px;
+  margin-bottom: 20px;
+  padding: 5px 15px;
+}
+
+/* Featured Property Listings module styling */
+
+@media (min-width: 1209px) {
+  .listing {
+    display: flex;
+    font-family: "Avenir Next Demi Bold", Avenir, Times;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .listing-col {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    margin-right: 50px; 
+  }
+}
+
+.listing-image {
+  height: 310px;
+  width: 450px;
+}
+
+.listing-header--container {
+  margin-top: 8px;
+}
+
+.listing-header {
+  background-color: #d8b6b4;
+  color: #f9f7f7;
+  padding: 8px;
+}
+
+.listing-address {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.listing-property-details {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.listing-property-details--header {
+  color: #dcceca;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+}
+
+.listing-details-link--container {
+  display: flex;
+  justify-content: center;
+}
+
+.listing-details-link {
+  background-color: #000000;
+  padding: 8px 35px;
+}
