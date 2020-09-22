@@ -1,5 +1,3 @@
-/* All Property Listings module styling */
-
 /* all-property-listings module styling */
 
 @media (min-width: 1209px) {
@@ -49,7 +47,7 @@
   padding: 5px 15px;
 }
 
-/* Featured Property Listings module styling */
+/* featured-property-listing module styling */
 
 @media (min-width: 1209px) {
   .listing {
@@ -101,9 +99,86 @@
 .listing-details-link--container {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .listing-details-link {
   background-color: #000000;
   padding: 8px 35px;
+}
+
+/* property-details module styling */
+
+.details-header--container {
+  display: flex;
+  justify-content: center;
+}
+
+.details-header {
+  background-color: #d8b6b4;
+  color: #f9f7f7;
+  padding: 8px;
+}
+
+.details-address--container {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto 25px; 
+}
+
+.details-address {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.details-image--container {
+  display: flex;
+  justify-content: center;
+}
+
+.details-image {
+   width: 60%; 
+   height: auto;
+}
+
+@media (min-width: 1209px) {
+  .details-specifics--container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 1208px) {
+  .details-specifics--container {
+     text-align: center;
+  }
+}
+
+.details-specifics-item {
+  margin: 50px 30px;
+}
+
+.details-specifics--header {
+  color: #dcceca;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.details-specifics {
+  font-weight: bolder;
+}
+
+.details-description--container {
+  display: flex;
+  justify-content: center;
+}
+
+.details-description {
+  width: 40%; 
+}
+
+.error {
+  font-size: 30px; 
+  text-align: center;
 }
