@@ -1,16 +1,72 @@
-{% if request.query_dict.property %}
-  <!-- Example: https://cobject.thefriendlydeveloper.com/detail-and-query-render-test?property=1123644 to identify https://app.hubspotqa.com/contacts/102940484/record/2-596521/1123644/ -->
+{% set property_id = request.query_dict.property %}
 
-  <!-- RENDER DETAIL VIEW -->
-  <!--  request.query_dict.property is the id of a property, coming from the property query string value -->
-  {% set property = crm_object("property-listing", request.query_dict.property, "address, bedrooms, bathrooms, property_image, price, square_feet") %}
-  {{ property }}
-  <!-- Add a conditional to make sure that the property is actually found! -->
-  <!-- Much of the code for the detail view already exists in https://app.hubspotqa.com/design-manager/102940484/modules/4312815278?tfid=4290938807 -->
-  <!-- Example: https://cobject.thefriendlydeveloper.com/properties/54-manfield-ave -->
-
+{% if property_id %}
+  {% set property = crm_object("property-listing", property_id, "address, bedrooms, bathrooms, description, property_image, price, square_feet") %}
+  {% if property.address %}
+    <div>
+      <div class="details-header--container">
+        <span class="details-header">
+          Featured Property 
+        </span>
+      </div>
+      <div class="details-address--container">
+        <div class="details-address">
+          {{property.address}}
+        </div>
+      </div>
+      <div class="details-image--container">
+        <img src="{{ property.property_image }}" class="details-image"> 
+      </div>
+      <div class="details-specifics--container">
+        <div class="details-specifics-item">
+          <div class="details-specifics--header">
+            Price  
+          </div>
+          <div class="details-specifics">
+           ${{property.price}}
+          </div>
+        </div>
+      
+        <div class="details-specifics-item">
+          <div class="details-specifics--header">
+            Beds  
+          </div>
+          <div class="details-specifics">
+           {{property.bedrooms}}
+          </div>
+        </div>
+      
+        <div class="details-specifics-item">
+          <div class="details-specifics--header">
+            Baths  
+          </div>
+          <div class="details-specifics">
+           {{property.bathrooms}}
+          </div>
+        </div>
+      
+        <div class="details-specifics-item">
+          <div class="details-specifics--header">
+            Square Feet  
+          </div>
+          <div class="details-specifics">
+           {{property.square_feet}}
+          </div>
+        </div>    
+      </div>
+      <div class="details-description--container">
+        <div class="details-description">
+          {{property.description}}
+        </div>
+      </div>    
+    </div>
+  {% else %}
+    <div class="error">
+      No property found!
+    </div>
+  {% endif %}
 {% else %}
-  <div>
-    No property found!  
+  <div class="error">
+    No property information provided!
   </div>
 {% endif %}
