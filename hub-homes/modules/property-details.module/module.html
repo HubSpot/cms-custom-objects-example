@@ -1,66 +1,72 @@
-{% set query = request.query_dict.property %}
-{% set property = crm_object("property-listing", query, "address, bedrooms, bathrooms, description, property_image, price, square_feet") %}
-{% if not(property.address is none)%}
-  <div>
-    <div class="details-header--container">
-      <span class="details-header">
-        Featured Property 
-      </span>
-    </div>
-    <div class="details-address--container">
-      <div class="details-address">
-        {{property.address}}
+{% set property_id = request.query_dict.property %}
+{% set property = crm_object("property-listing", property_id, "address, bedrooms, bathrooms, description, property_image, price, square_feet") %}
+
+{% if property_id %}
+  {% if property.address %}
+    <div>
+      <div class="details-header--container">
+        <span class="details-header">
+          Featured Property 
+        </span>
       </div>
-    </div>
-    <div class="details-image--container">
-      <img src="{{ property.property_image }}" class="details-image"> 
-    </div>
-    <div class="details-specifics--container">
-      <div class="details-specifics-item">
-        <div class="details-specifics--header">
-          Price  
-        </div>
-        <div class="details-specifics">
-         ${{property.price}}
+      <div class="details-address--container">
+        <div class="details-address">
+          {{property.address}}
         </div>
       </div>
+      <div class="details-image--container">
+        <img src="{{ property.property_image }}" class="details-image"> 
+      </div>
+      <div class="details-specifics--container">
+        <div class="details-specifics-item">
+          <div class="details-specifics--header">
+            Price  
+          </div>
+          <div class="details-specifics">
+           ${{property.price}}
+          </div>
+        </div>
       
-      <div class="details-specifics-item">
-        <div class="details-specifics--header">
-          Beds  
+        <div class="details-specifics-item">
+          <div class="details-specifics--header">
+            Beds  
+          </div>
+          <div class="details-specifics">
+           {{property.bedrooms}}
+          </div>
         </div>
-        <div class="details-specifics">
-         {{property.bedrooms}}
-        </div>
-      </div>
       
-      <div class="details-specifics-item">
-        <div class="details-specifics--header">
-          Baths  
+        <div class="details-specifics-item">
+          <div class="details-specifics--header">
+            Baths  
+          </div>
+          <div class="details-specifics">
+           {{property.bathrooms}}
+          </div>
         </div>
-        <div class="details-specifics">
-         {{property.bathrooms}}
-        </div>
-      </div>
       
-      <div class="details-specifics-item">
-        <div class="details-specifics--header">
-          Square Feet  
-        </div>
-        <div class="details-specifics">
-         {{property.square_feet}}
+        <div class="details-specifics-item">
+          <div class="details-specifics--header">
+            Square Feet  
+          </div>
+          <div class="details-specifics">
+           {{property.square_feet}}
+          </div>
+        </div>    
+      </div>
+      <div class="details-description--container">
+        <div class="details-description">
+          {{property.description}}
         </div>
       </div>    
     </div>
-    <div class="details-description--container">
-      <div class="details-description">
-        {{property.description}}
-      </div>
+  {% else %}
+    <div class="error">
+      No property found!
     </div>
-    
-  </div>
+  {% endif %}
 {% else %}
   <div class="error">
-    No property found! 
+    No property information provided!
   </div>
 {% endif %}
