@@ -1,7 +1,7 @@
 {% set property_id = request.query_dict.property %}
-{% set property = crm_object("property-listing", property_id, "address, bedrooms, bathrooms, description, property_image, price, square_feet") %}
 
 {% if property_id %}
+  {% set property = crm_object("property-listing", property_id, "address, bedrooms, bathrooms, description, property_image, price, square_feet") %}
   {% if property.address %}
     <div>
       <div class="details-header--container">
