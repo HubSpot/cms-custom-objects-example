@@ -33,6 +33,13 @@
       "description": "How many bedrooms the listing has"
     },
     {
+      "name": "description",
+      "label": "Description",
+      "type": "string",
+      "fieldType": "textarea",
+      "description": "A full description of the property listing"
+    },
+    {
       "name": "dynamic_page_title",
       "label": "Dynamic Page Title",
       "type": "string",
