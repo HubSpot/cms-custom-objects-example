@@ -1,0 +1,74 @@
+{
+  "name": "property-listing",
+  "labels": {
+    "singular": "Property Listing",
+    "plural": "Property Listings"
+  },
+  "requiredProperties": [
+    "address"
+  ],
+  "searchableProperties": [
+    "address"
+  ],
+  "primaryDisplayProperty": "address",
+  "properties": [
+    {
+      "name": "address",
+      "label": "Address",
+      "type": "string",
+      "fieldType": "text"
+    },
+    {
+      "name": "bathrooms",
+      "label": "Bathrooms",
+      "type": "number",
+      "fieldType": "number",
+      "description": "How many bathrooms"
+    },
+    {
+      "name": "bedrooms",
+      "label": "Bedrooms",
+      "type": "number",
+      "fieldType": "number",
+      "description": "How many bedrooms the listing has"
+    },
+    {
+      "name": "dynamic_page_title",
+      "label": "Dynamic Page Title",
+      "type": "string",
+      "fieldType": "text",
+      "description": "HTML title for object dynamic pages"
+    },
+    {
+      "name": "dynamic_page_uri",
+      "label": "Dynamic Page Slug",
+      "type": "string",
+      "fieldType": "text",
+      "description": "The url slug for use in object dynamic pages"
+    },
+    {
+      "name": "price",
+      "label": "Price",
+      "type": "number",
+      "fieldType": "number",
+      "description": "Price of property"
+    },
+    {
+      "name": "property_image",
+      "label": "Property Image",
+      "type": "string",
+      "fieldType": "text",
+      "description": "Property Image"
+    },
+    {
+      "name": "square_feet",
+      "label": "Square Feet",
+      "type": "number",
+      "fieldType": "number",
+      "description": "Square feet of the property "
+    }
+  ],
+  "associatedObjects": [
+    "CONTACT"
+  ]
+}
