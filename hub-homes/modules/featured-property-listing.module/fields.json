@@ -28,7 +28,7 @@
         "id": "b4a1c510-ee32-5727-4f12-0f5411b74466",
         "name": "Property",
         "label": "CRM object",
-        "required": false,
+        "required": true,
         "locked": false,
         "placeholder": "Property",
         "object_type": "propertylisting",
