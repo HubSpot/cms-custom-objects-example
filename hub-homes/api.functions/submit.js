@@ -4,9 +4,9 @@ const { APIKEY } = process.env;
 
 exports.main = ({ accountId, contact, body }, sendResponse) => {
   const { email, firstName, lastName, formId, utk, propertyId } = body;
-  const FORMS_API = `https://api.hsformsqa.com/submissions/v3/integration/submit/${accountId}/${formId}`;
-  const CONTACT_API = `https://api.hubapiqa.com/contacts/v1/contact/email/${email}/profile`;
-  const ASSOCIATIONS_API = `https://api.hubapiqa.com/crm/v3/associations/contact/p${accountId}_property-listing/batch/create`;
+  const FORMS_API = `https://api.hsforms.com/submissions/v3/integration/submit/${accountId}/${formId}`;
+  const CONTACT_API = `https://api.hubapi.com/contacts/v1/contact/email/${email}/profile`;
+  const ASSOCIATIONS_API = `https://api.hubapi.com/crm/v3/associations/contact/p${accountId}_property-listing/batch/create`;
 
   if (!APIKEY) {
     sendResponse({
