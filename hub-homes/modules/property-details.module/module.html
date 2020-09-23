@@ -75,12 +75,12 @@
             <input type="text" name="lastName">
 
             <input type="hidden" name="propertyId" value="{{ request.query_dict.property }}">
-            <input type="hidden" name="formId" value="983e2fc8-9673-4283-b4ca-da0eb4160a9b">
+            <input type="hidden" name="formId" value="{{ module.form.form_id }}">
             <input type="button" id="submit" value="Submit">
           </form>
 
           <div class="property-interest__message" style="display: none;">
-            SOLD! Just kidding, but you've been added to the list.
+            {{ module.form.message }}
           </div>
         </div>
       </div>
