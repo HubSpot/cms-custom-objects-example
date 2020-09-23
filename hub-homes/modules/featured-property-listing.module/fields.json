@@ -15,10 +15,10 @@
     "id": "a0b597e7-f134-c93a-8873-bdc2519ab264",
     "name": "properties",
     "label": "Properties",
-    "required": false,
+    "required": true,
     "locked": false,
     "occurrence": {
-      "min": null,
+      "min": 1,
       "max": null,
       "sorting_label_field": null,
       "default": null
