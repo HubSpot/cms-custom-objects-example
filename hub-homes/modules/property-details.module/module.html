@@ -59,6 +59,24 @@
           {{property.description}}
         </div>
       </div>
+      <div class="property-interest">
+        <button class="property-interest__request">Request a viewing</button>
+        <div class="property-interest__modal" style="display: none;">
+          <h2>Request a viewing</h2>
+          <form id="property_interest_form">
+            <input type="text" name="email">
+            <input type="text" name="firstName">
+            <input type="text" name="lastName">
+            <input type="hidden" name="propertyId" value="{{ request.query_dict.property }}">
+            <input type="hidden" name="formId" value="983e2fc8-9673-4283-b4ca-da0eb4160a9b">
+            <input type="button" id="submit" value="GO">
+          </form>
+
+          <div class="property-interest__message" style="display: none;">
+            SOLD! Just kidding, but you've been added to the list.
+          </div>
+        </div>
+      </div>
     </div>
   {% else %}
     <div class="error">
@@ -71,24 +89,18 @@
   </div>
 {% endif %}
 
-<div class="property-interest">
-  <form id="property_interest_form">
-    <input type="text" name="email">
-    <input type="text" name="firstName">
-    <input type="text" name="lastName">
-    <input type="hidden" name="propertyId" value="{{ request.query_dict.property }}">
-    <input type="hidden" name="formId" value="983e2fc8-9673-4283-b4ca-da0eb4160a9b">
-    <input type="button" id="submit" value="GO">
-  </form>
-  <div class="property-interest__message" style="display: none;">
-    SOLD! Just kidding, but you've been added to the list.
-  </div>
-</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg==" crossorigin="anonymous"></script>
 <script>
 var propertyInterest = document.querySelector('.property-interest');
 var submissionForm = propertyInterest.querySelector('#property_interest_form');
 var messageContainer = propertyInterest.querySelector('.property-interest__message');
+var requestModal = propertyInterest.querySelector('.property-interest__modal');
+var requestButton = propertyInterest.querySelector('.property-interest__request');
+
+requestButton.addEventListener('click', function() {
+  requestModal.style.display = 'block';
+});
 
 var processSubmission = function() {
   var SUBMISSION_ENDPOINT = "/_hcms/api/submit";
