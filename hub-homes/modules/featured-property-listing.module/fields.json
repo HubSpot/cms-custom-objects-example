@@ -31,7 +31,7 @@
         "required": false,
         "locked": false,
         "placeholder": "Property",
-        "object_type": "p104354756_propertylisting",
+        "object_type": "propertyListing",
         "properties_to_fetch": [
           "bedrooms",
           "address",
