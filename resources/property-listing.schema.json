@@ -73,8 +73,8 @@
     {
       "name": "open_house_date",
       "label": "Open House Date",
-      "type": "string",
-      "fieldType": "text",
+      "type": "datetime",
+      "fieldType": "date",
       "description": "Open House Date"
     }
   ],
