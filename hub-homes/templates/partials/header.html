@@ -11,56 +11,13 @@
         path='@hubspot/logo',
         img={
           'override_inherited_src': false,
-          'src': get_asset_url('../../images/session-theme-logo.png'),
+          'src': get_asset_url('../../images/hub-homes-logo.png'),
           'alt': 'Session logo',
           'width': '114',
           'height': '36'
         }
       %}
     </div>
-
-    {# Main Navigation #}
-    <div class="header__menu">
-      <input type="checkbox" id="nav-toggle">
-      <label class="header__navigation-toggle" for="nav-toggle">
-        <span class="header__mobile-menu-open-icon">
-          {% icon
-            name='bars',
-            style='SOLID',
-            purpose='semantic',
-            title='Open main menu'
-            width='24',
-            no_wrapper=True
-          %}
-        </span>
-        <span class="header__mobile-menu-close-icon">
-          {% icon
-            name='times',
-            style='SOLID',
-            purpose='semantic',
-            title='Close main menu'
-            width='24',
-            no_wrapper=True
-          %}
-        </span>
-      </label>
-      <div class="header__navigation">
-        {% module 'header_navigation_primary'
-          path='../../modules/menu-section',
-          label='Primary Navigation'
-        %}
-      </div>
-    </div>
-
-    {# Language Toggle #}
-    {% if content.translated_content|length %}
-      <div class="header__language-switcher">
-        <div class="header__language-switcher-label">
-          {% module 'language-switcher' path='@hubspot/language_switcher', display_mode='localized', label='Language Switcher' %}
-          <div class="header__language-switcher-label-current"> {{ locale_name(locale) }}</div>
-        </div>
-      </div>
-    {% endif %}
 
   </div>
 </header>
