@@ -109,7 +109,6 @@ var processSubmission = function() {
 
   axios.post(SUBMISSION_ENDPOINT, serializeForm(submissionForm))
   .then(function (response) {
-    console.log(response);
     if (response.data.statusCode === 200) {
       handleFormSuccess();
     }
@@ -120,7 +119,6 @@ var processSubmission = function() {
 }
 
 submissionForm.querySelector('#submit').addEventListener('click', function() {
-  console.log('go')
   processSubmission();
 });
 
