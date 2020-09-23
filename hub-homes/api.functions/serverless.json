@@ -1,0 +1,12 @@
+{
+  "runtime": "nodejs12.x",
+  "version": "1.0",
+  "environment": {},
+  "secrets": ["APIKEY"],
+  "endpoints": {
+    "submit": {
+      "method": "POST",
+      "file": "submit.js"
+    }
+  }
+}

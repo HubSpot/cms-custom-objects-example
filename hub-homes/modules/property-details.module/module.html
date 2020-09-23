@@ -6,7 +6,7 @@
     <div>
       <div class="details-header--container">
         <span class="details-header">
-          Featured Property 
+          Featured Property
         </span>
       </div>
       <div class="details-address--container">
@@ -15,50 +15,50 @@
         </div>
       </div>
       <div class="details-image--container">
-        <img src="{{ property.property_image }}" class="details-image"> 
+        <img src="{{ property.property_image }}" class="details-image">
       </div>
       <div class="details-specifics--container">
         <div class="details-specifics-item">
           <div class="details-specifics--header">
-            Price  
+            Price
           </div>
           <div class="details-specifics">
            ${{property.price}}
           </div>
         </div>
-      
+
         <div class="details-specifics-item">
           <div class="details-specifics--header">
-            Beds  
+            Beds
           </div>
           <div class="details-specifics">
            {{property.bedrooms}}
           </div>
         </div>
-      
+
         <div class="details-specifics-item">
           <div class="details-specifics--header">
-            Baths  
+            Baths
           </div>
           <div class="details-specifics">
            {{property.bathrooms}}
           </div>
         </div>
-      
+
         <div class="details-specifics-item">
           <div class="details-specifics--header">
-            Square Feet  
+            Square Feet
           </div>
           <div class="details-specifics">
            {{property.square_feet}}
           </div>
-        </div>    
+        </div>
       </div>
       <div class="details-description--container">
         <div class="details-description">
           {{property.description}}
         </div>
-      </div>    
+      </div>
     </div>
   {% else %}
     <div class="error">
@@ -70,3 +70,58 @@
     No property information provided!
   </div>
 {% endif %}
+
+<div class="property-interest">
+  <form id="property_interest_form">
+    <input type="text" name="email">
+    <input type="text" name="firstName">
+    <input type="text" name="lastName">
+    <input type="hidden" name="propertyId" value="{{ request.query_dict.property }}">
+    <input type="hidden" name="formId" value="983e2fc8-9673-4283-b4ca-da0eb4160a9b">
+    <input type="button" id="submit" value="GO">
+  </form>
+  <div class="property-interest__message" style="display: none;">
+    SOLD! Just kidding, but you've been added to the list.
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg==" crossorigin="anonymous"></script>
+<script>
+var propertyInterest = document.querySelector('.property-interest');
+var submissionForm = propertyInterest.querySelector('#property_interest_form');
+var messageContainer = propertyInterest.querySelector('.property-interest__message');
+
+var processSubmission = function() {
+  var SUBMISSION_ENDPOINT = "http://apizzurro-104382023.hs-sitesqa.com/_hcms/api/submit";
+
+  var serializeForm = function (form) {
+    var obj = {};
+    var formData = new FormData(form);
+    for (var key of formData.keys()) {
+      obj[key] = formData.get(key);
+    }
+    return obj;
+  };
+
+  var handleFormSuccess =  function() {
+    submissionForm.style.display = 'none';
+    messageContainer.style.display = 'block';
+  }
+
+  axios.post(SUBMISSION_ENDPOINT, serializeForm(submissionForm))
+  .then(function (response) {
+    console.log(response);
+    if (response.data.statusCode === 200) {
+      handleFormSuccess();
+    }
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+}
+
+submissionForm.querySelector('#submit').addEventListener('click', function() {
+  console.log('go')
+  processSubmission();
+});
+
+</script>
