@@ -40,18 +40,10 @@
           "property_image",
           "bathrooms"
         ],
-        "type": "crmobject",
-        "default": {
-          "id": 13410149
-        }
+        "type": "crmobject"
       }
     ],
     "tab": "CONTENT",
-    "type": "group",
-    "default": {
-      "Property": {
-        "id": 13410149
-      }
-    }
+    "type": "group"
   }
 ]
