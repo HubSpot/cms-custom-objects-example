@@ -13,9 +13,6 @@
     "url": "https://github.com/HubSpot/cms-custom-objects-example/issues"
   },
   "homepage": "https://github.com/HubSpot/cms-custom-objects-example#readme",
-  "dependencies": {
-    "@hubspot/cms-cli": "^2.0.2-beta.1"
-  },
   "scripts": {
     "install": "hs custom-object schema create ./resources/property-listing.schema.json && npm run createData",
     "createData": "hs custom-object create propertylisting ./resources/property-listings.json",
@@ -23,6 +20,7 @@
     "develop": "hs watch hub-homes hub-homes"
   },
   "devDependencies": {
-    "js-yaml": "^3.14.0"
+    "js-yaml": "^3.14.0",
+    "@hubspot/cms-cli": "^2.0.2-beta.1"
   }
 }
