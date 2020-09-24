@@ -219,9 +219,59 @@
   top: 15px;
   cursor: pointer;
 }
-
-.property-interest__message {
+.property-interest__form,
+.property-interest__loading,
+.property-interest__message,
+.property-interest__error {
+  display: none;
+}
+.property-interest__loading {
+  padding-top: 50px;
+  position: relative;
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+.property-interest__loading-spinner {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.property-interest__loading-spinner svg {
+  -webkit-animation: fa-spin 2s linear infinite;
+  animation: fa-spin 2s linear infinite;
+}
+.property-interest__loading,
+.property-interest__message,
+.property-interest__error {
   font-size: 20px;
   text-align: center;
   margin-top: 80px;
+}
+.property-interest__error {
+}
+.property-interest__modal[data-submission-state="empty"]
+  .property-interest__form {
+  display: block;
+}
+.property-interest__modal[data-submission-state="submitted"]
+  .property-interest__loading {
+  display: block;
+}
+.property-interest__modal[data-submission-state="finished"]
+  .property-interest__message {
+  display: block;
+}
+.property-interest__modal[data-submission-state="error"]
+  .property-interest__error {
+  display: block;
 }

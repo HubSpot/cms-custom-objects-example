@@ -3,6 +3,9 @@ var initPropertyInterestForm = function (formContainer) {
   var messageContainer = formContainer.querySelector(
     ".property-interest__message"
   );
+  var errorContainer = formContainer.querySelector(
+    ".property-interest__error-message"
+  );
   var requestModal = formContainer.querySelector(".property-interest__modal");
   var requestButton = formContainer.querySelector(
     ".property-interest__request"
@@ -30,20 +33,24 @@ var initPropertyInterestForm = function (formContainer) {
       return obj;
     };
 
-    var handleFormSuccess = function () {
-      submissionForm.style.display = "none";
-      messageContainer.style.display = "block";
+    var handleDisplayResponse = function (error) {
+      if (error) {
+        errorContainer.innerHTML = error;
+        requestModal.setAttribute("data-submission-state", "error");
+      } else {
+        requestModal.setAttribute("data-submission-state", "finished");
+      }
     };
 
     axios
       .post(SUBMISSION_ENDPOINT, serializeForm(submissionForm))
       .then(function (response) {
         if (response.data.statusCode === 200) {
-          handleFormSuccess();
+          handleDisplayResponse();
         }
       })
       .catch(function (error) {
-        console.log(error);
+        handleDisplayResponse(error);
       });
   };
 
@@ -51,6 +58,7 @@ var initPropertyInterestForm = function (formContainer) {
     .querySelector(".property-interest__submit")
     .addEventListener("click", function () {
       processSubmission();
+      requestModal.setAttribute("data-submission-state", "submitted");
     });
 };
 
