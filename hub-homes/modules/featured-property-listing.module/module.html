@@ -1,17 +1,40 @@
-{% for item in module.properties %}
+{% if module.properties|length > 0 && module.properties[0].price > 0 %}
+  {% set properties = module.properties %}
+  {% set header = module.listing_header %}
+{% else %}
+  {% set properties = [{
+    Property: {
+      properties: {
+        "address": "1345 Old Mill Rd., Warren, VT 05674",
+        "bathrooms": 6.5,
+        "bedrooms": 6,
+        "price": 989000,
+        "property_image": "https://f.hubspotusercontent10.net/hubfs/7303166/Property%20Listings/house_7.png",
+        "square_feet": 5400,
+        "dynamic_page_uri": "1345-old-mill-rd",
+        "dynamic_page_title": "1345 Old Mill Rd., Warren, VT 05674",
+        "description": "Flatland! Hypatia. Galaxies Orion's sword globular star cluster? Light years quasar as a patch of light gathered by gravity Vangelis radio telescope. Stirred by starlight vanquish the impossible Tunguska event cosmic fugue courage of our questions worldlets galaxies birth colonies. Vastness is bearable only through love.",
+        "open_house_date": 1605456000000
+      }
+    }
+  }] %}
+  {% set header = "Example Property" %}
+{% endif %}
+
+{% for item in properties %}
   <div class="listing">
     <div class="listing-col">
-      <img src="{{ item.Property.properties.property_image }}" class="listing-image">  
+      <img src="{{ item.Property.properties.property_image }}" class="listing-image">
     </div>
-  
-    <div class="listing-col"> 
+
+    <div class="listing-col">
       <div class="listing-header--container">
-         <span class="listing-header">
-           {{ module.listing_header }} 
-         </span> 
-     </div>
-      <br> 
-	    <div class="listing-address">
+          <span class="listing-header">
+            {{ header }}
+          </span>
+      </div>
+      <br>
+      <div class="listing-address">
         {{ item.Property.properties.address }}
       </div>
       <p>
@@ -19,14 +42,14 @@
           <div class="listing-property-details--header">
             Price
           </div>
-          ${{ item.Property.properties.price }}   
+          ${{ item.Property.properties.price }}
         </div>
         <div class="listing-property-details">
-           <div class="listing-property-details--header">
-             Beds
+            <div class="listing-property-details--header">
+              Beds
           </div>
-           {{ item.Property.properties.bedrooms }}
-         </div>
+            {{ item.Property.properties.bedrooms }}
+          </div>
         <div class="listing-property-details">
           <div class="listing-property-details--header">
             Baths
@@ -39,14 +62,15 @@
           </div>
           {{ item.Property.properties.square_feet }}
         </div>
-      </p>   
-    </div>  
+      </p>
+    </div>
   </div>
 {% endfor %}
-{% for item in module.properties %}
-  <div class="listing-details-link--container"> 
-    <span class="listing-details-link"> 
-      <a href="/property?property={{item.Property.properties.id}}"> See details </a> 
-    </span>   
+{% for item in properties %}
+  <div class="listing-details-link--container">
+    <span class="listing-details-link">
+      <a href="/property?property={{item.Property.properties.id}}"> See details </a>
+    </span>
   </div>
 {% endfor %}
+
