@@ -6,7 +6,7 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
   const { email, firstName, lastName, formId, utk, propertyId } = body;
   const FORMS_API = `https://api.hsforms.com/submissions/v3/integration/submit/${accountId}/${formId}`;
   const CONTACT_API = `https://api.hubapi.com/contacts/v1/contact/email/${email}/profile`;
-  const ASSOCIATIONS_API = `https://api.hubapi.com/crm/v3/associations/contact/p${accountId}_property-listing/batch/create`;
+  const ASSOCIATIONS_API = `https://api.hubapi.com/crm/v3/associations/contact/p${accountId}_propertylisting/batch/create`;
 
   if (!APIKEY) {
     sendResponse({
