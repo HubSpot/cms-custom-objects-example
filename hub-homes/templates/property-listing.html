@@ -8,7 +8,7 @@
 {% block body %}
 <main>
   {% dnd_area 'dnd_area_main_banner' label='Main Content' %}
-    
+
     {# Banner Section #}
     {% dnd_section
       background_image= {
@@ -22,7 +22,7 @@
         {% dnd_row %}
           {% dnd_module path='@hubspot/rich_text' %}
             {% module_attribute 'html' %}
-              <div style="text-align: center;">  
+              <div style="text-align: center;">
                 <h1 style="color: #ffffff">Our Portfolio</h1>
               </div>
             {% end_module_attribute %}
@@ -34,25 +34,21 @@
 
     {# Featured property listing #}
     {% dnd_section %}
-      {% dnd_column %} 
-        {% dnd_row %} 
-          {% dnd_module path="../modules/featured-property-listing",
-            default={ 
-              id: 13410149
-            }
-          %}
+      {% dnd_column %}
+        {% dnd_row %}
+          {% dnd_module path="../modules/featured-property-listing" %}
           {% end_dnd_module %}
-        {% end_dnd_row %} 
+        {% end_dnd_row %}
       {% end_dnd_column %}
     {% end_dnd_section %}
 
     {# All property listings #}
     {% dnd_section %}
-      {% dnd_column %}        
+      {% dnd_column %}
         {% dnd_row %}
-          {% dnd_module path="../modules/all-property-listings" 
+          {% dnd_module path="../modules/all-property-listings"
           %}
-          {% end_dnd_module %} 
+          {% end_dnd_module %}
         {% end_dnd_row %}
       {% end_dnd_column %}
     {% end_dnd_section %}
@@ -60,5 +56,5 @@
   {% end_dnd_area %}
 </main>
 
-      
+
 {% endblock body %}
