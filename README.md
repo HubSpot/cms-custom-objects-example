@@ -19,7 +19,7 @@ portals:
     apiKey: <apiKey>
 ```
 
-4. Run `npm run install` to create the custom object
+4. Run `npm run setup` to create the custom object
 5. Run `npm run upload` to upload the `hub-homes` theme
 6. Add your API key by running `hs secrets add APIKEY <apikey>`
 7. Create a form that contains the following fields:

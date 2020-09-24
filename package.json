@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/HubSpot/cms-custom-objects-example#readme",
   "scripts": {
-    "install": "hs custom-object schema create ./resources/property-listing.schema.json && npm run createData",
+    "setup": "hs custom-object schema create ./resources/property-listing.schema.json && npm run createData",
     "createData": "hs custom-object create propertylisting ./resources/property-listings.json",
     "upload": "hs upload hub-homes hub-homes",
     "develop": "hs watch hub-homes hub-homes"
