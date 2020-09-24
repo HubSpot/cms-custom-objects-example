@@ -60,6 +60,31 @@
           {{property.description}}
         </div>
       </div>
+      <div class="property-interest">
+        <button class="property-interest__request">Request a viewing</button>
+        <div class="property-interest__modal" style="display: none;">
+          <button class="property-interest__close-modal">{% icon name="times" set="fontawesome-5" style="solid" format="svg" width="22" height="22", purpose="semantic", title="address-card icon" %}</button>
+          <h2>Request a viewing</h2>
+          <form id="property_interest_form" class="property-interest__form">
+            <label for="email">Email</label>
+            <input type="text" name="email">
+
+            <label for="firstName">First name</label>
+            <input type="text" name="firstName">
+
+            <label for="lastName">Last name</label>
+            <input type="text" name="lastName">
+
+            <input type="hidden" name="propertyId" value="{{ request.query_dict.property }}">
+            <input type="hidden" name="formId" value="{{ module.form.form_id }}">
+            <input type="button" id="submit" class="property-interest__submit" value="Submit">
+          </form>
+
+          <div class="property-interest__message" style="display: none;">
+            {{ module.form.message }}
+          </div>
+        </div>
+      </div>
     </div>
   {% else %}
     <div class="error">
