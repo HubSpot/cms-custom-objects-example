@@ -37,7 +37,7 @@
 }
 
 .property-details-link--container {
-  margin-bottom: 80px; 
+  margin-bottom: 80px;
 }
 
 .property-details-link {
@@ -61,7 +61,7 @@
     box-sizing: border-box;
     float: left;
     width: 50%;
-    margin-right: 50px; 
+    margin-right: 50px;
   }
 }
 
@@ -123,7 +123,7 @@
 .details-address--container {
   display: flex;
   justify-content: center;
-  margin: 15px auto 25px; 
+  margin: 15px auto 25px;
 }
 
 .details-address {
@@ -137,8 +137,8 @@
 }
 
 .details-image {
-   width: 60%; 
-   height: auto;
+  width: 60%;
+  height: auto;
 }
 
 @media (min-width: 1209px) {
@@ -148,10 +148,9 @@
   }
 }
 
-
 @media (max-width: 1208px) {
   .details-specifics--container {
-     text-align: center;
+    text-align: center;
   }
 }
 
@@ -175,10 +174,54 @@
 }
 
 .details-description {
-  width: 40%; 
+  width: 40%;
 }
 
 .error {
-  font-size: 30px; 
+  font-size: 30px;
   text-align: center;
+}
+
+.property-interest__modal {
+  max-width: 660px;
+  width: 90%;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.property-interest__modal h2 {
+  text-align: center;
+}
+
+.property-interest__modal form {
+  background-color: transparent;
+  padding: 0;
+  max-width: 600px;
+}
+
+.property-interest__modal input {
+  margin-bottom: 20px;
+}
+
+.property-interest__close-modal {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.property-interest__message {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 80px;
 }
