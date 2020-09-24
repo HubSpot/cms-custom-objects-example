@@ -1,0 +1,10 @@
+button, input.property-interest__submit {
+  -webkit-appearance: none;
+  background-color: #000;
+  color: #fff;
+  border: 0 none;
+  display: block;
+  padding: 20px 40px;
+  margin: 0 auto;
+  cursor: pointer;
+}

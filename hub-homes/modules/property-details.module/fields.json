@@ -1,1 +1,9 @@
-[ ]
+[
+  {
+    "name" : "form",
+    "label" : "Form",
+    "required" : false,
+    "locked" : false,
+    "type" : "form"
+  }
+]

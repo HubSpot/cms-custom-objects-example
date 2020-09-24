@@ -21,4 +21,10 @@ portals:
 
 4. Run `npm run install` to create the custom object
 5. Run `npm run upload` to upload the `hub-homes` theme
-
+6. Add your API key by running `hs secrets add APIKEY <apikey>`
+7. Create a form that contains the following fields:
+- First Name
+- Last Name
+- Email Address
+8. Create a page that will display all property listings by using the "Home page" (`property-listsings.html`) template
+9. Create a page that will display property details by using the "Details page" (`details.html`) template. This slug for this page must be `/property`. Additionally, in the "Property Details Module", you'll need to choose the form that you created in step 7.
