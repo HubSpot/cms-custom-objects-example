@@ -17,7 +17,7 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
 
   const submitFormData = async () => {
     try {
-      const response = await axios({
+      await axios({
         method: "post",
         url: FORMS_API,
         data: {
@@ -94,7 +94,7 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
     propertyId
   ) => {
     try {
-      const response = await axios({
+      await axios({
         method: "post",
         url: ASSOCIATIONS_API,
         params: {
