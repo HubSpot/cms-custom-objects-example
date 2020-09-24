@@ -1,0 +1,102 @@
+{
+  "inputs": [
+    {
+      "properties": {
+        "address": "1345 Old Mill Rd., Warren, VT 05674",
+        "bathrooms": 6.5,
+        "bedrooms": 6,
+        "price": 989000,
+        "property_image": "https://f.hubspotusercontent10.net/hubfs/7303166/Property%20Listings/house_7.png",
+        "square_feet": 5400,
+        "dynamic_page_uri": "1345-old-mill-rd",
+        "dynamic_page_title": "1345 Old Mill Rd., Warren, VT 05674",
+        "description": "Flatland! Hypatia. Galaxies Orion's sword globular star cluster? Light years quasar as a patch of light gathered by gravity Vangelis radio telescope. Stirred by starlight vanquish the impossible Tunguska event cosmic fugue courage of our questions worldlets galaxies birth colonies. Vastness is bearable only through love.",
+        "open_house_date": 1605456000000
+      }
+    },
+    {
+      "properties": {
+        "address": "54 Manfield Ave, Stowe, VT 05662",
+        "bathrooms": 2.5,
+        "bedrooms": 3,
+        "price": 789000,
+        "property_image": "https://f.hubspotusercontent10.net/hubfs/7303166/Property%20Listings/house_6.png",
+        "square_feet": 2400,
+        "dynamic_page_uri": "54-manfield-ave",
+        "dynamic_page_title": "54 Manfield Ave, Stowe, VT 05662",
+        "description": "I'll be sure to note that in my log. Smooth as an android's bottom, eh, Data? When has justice ever been as simple as a rule book? This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+        "open_house_date": 1603886400000
+      }
+    },
+    {
+      "properties": {
+        "address": "390 North  St., Burlington, VT 05401",
+        "bathrooms": 2.5,
+        "bedrooms": 3,
+        "price": 457000,
+        "property_image": "https://f.hubspotusercontent10.net/hubfs/7303166/Property%20Listings/house_1.png",
+        "square_feet": 2200,
+        "dynamic_page_uri": "390-north-st",
+        "dynamic_page_title": "390 North St., Burlington, VT 05401",
+        "description": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+        "open_house_date": 1609689600000
+      }
+    },
+    {
+      "properties": {
+        "address": "260 Mansfield Ave., Burlington, VT 05401",
+        "bathrooms": 3.5,
+        "bedrooms": 4,
+        "price": 600000,
+        "property_image": "https://f.hubspotusercontent10.net/hubfs/7303166/Property%20Listings/house_5.png",
+        "square_feet": 29000,
+        "dynamic_page_uri": "26-mansfield-ave",
+        "dynamic_page_title": "26 Mansfield Ave., Burlington, VT 05401",
+        "description": "Hodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; hodor hodor; hodor hodor hodor! Hodor hodor HODOR! Hodor hodor... Hodor hodor hodor...",
+        "open_house_date": 1608580800000
+      }
+    },
+    {
+      "properties": {
+        "address": "24 Church St., Burlington, VT 05401",
+        "bathrooms": 2.5,
+        "bedrooms": 3,
+        "price": 435000,
+        "property_image": "https://f.hubspotusercontent10.net/hubfs/7303166/Property%20Listings/house_4.png",
+        "square_feet": 2800,
+        "dynamic_page_uri": "24-church-st",
+        "dynamic_page_title": "24 Church St., Burlington, VT 05401",
+        "description": "Cupcake ipsum dolor. Sit amet marshmallow topping cheesecake muffin. Halvah croissant candy canes bonbon candy. Apple pie jelly beans topping carrot cake danish tart cake cheesecake. Muffin danish chocolate soufflé pastry icing bonbon oat cake. Powder cake jujubes oat cake. Lemon drops tootsie roll marshmallow halvah carrot cake.",
+        "open_house_date": 1602338400000
+      }
+    },
+    {
+      "properties": {
+        "address": "101 Cliff St., Burlington, VT 05401",
+        "bathrooms": 4,
+        "bedrooms": 4,
+        "price": 867000,
+        "property_image": "https://f.hubspotusercontent10.net/hubfs/7303166/Property%20Listings/house_3.png",
+        "square_feet": 4500,
+        "dynamic_page_uri": "101-cliff-st",
+        "dynamic_page_title": "101 Cliff St., Burlington, VT 05401",
+        "description": "Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is part of our destiny, but it’s actually our duty to future generations and their quest to ensure the survival of the human species.",
+        "open_house_date": 1615833000000
+      }
+    },
+    {
+      "properties": {
+        "address": "57 Loomis St., Burlington, VT 05401",
+        "bathrooms": 2,
+        "bedrooms": 2,
+        "price": 547000,
+        "property_image": "https://f.hubspotusercontent10.net/hubfs/7303166/Property%20Listings/house_2.png",
+        "square_feet": 3247,
+        "dynamic_page_uri": "57-loomis-st",
+        "dynamic_page_title": "57 Loomis St., Burlington, VT 05401",
+        "description": "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.",
+        "open_house_date": 1612542600000
+      }
+    }
+  ]
+}

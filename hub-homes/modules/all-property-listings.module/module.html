@@ -1,11 +1,11 @@
 {% set properties = crm_objects(
-    "property-listing",
+    "propertylisting",
     "limit=100",
     "address, bedrooms, bathrooms, property_image, price, square_feet"
     ) %}
 
-<div class="property-list"> 
-  {% for property in properties.results %} 
+<div class="property-list">
+  {% for property in properties.results %}
     <div class="property-list-item">
       <img src="{{ property.property_image }}" class="property-image">
       <div class="property-address">
@@ -13,14 +13,14 @@
       </div>
       <div class="property-price">
         <div class="property-price--header">
-          Price 
-        </div> 
-          ${{ property.price }}   
+          Price
+        </div>
+          ${{ property.price }}
       </div>
       <div class="property-details-link--container">
-        <span class="property-details-link"> 
+        <span class="property-details-link">
           <a href="/property?property={{property.id}}"> See details </a>
-        </span>    
+        </span>
       </div>
     </div>
   {% endfor %}

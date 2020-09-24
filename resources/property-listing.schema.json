@@ -1,15 +1,11 @@
 {
-  "name": "property-listing",
+  "name": "propertylisting",
   "labels": {
     "singular": "Property Listing",
     "plural": "Property Listings"
   },
-  "requiredProperties": [
-    "address"
-  ],
-  "searchableProperties": [
-    "address"
-  ],
+  "requiredProperties": ["address"],
+  "searchableProperties": ["address"],
   "primaryDisplayProperty": "address",
   "properties": [
     {
@@ -72,10 +68,15 @@
       "label": "Square Feet",
       "type": "number",
       "fieldType": "number",
-      "description": "Square feet of the property "
+      "description": "Square feet of the property"
+    },
+    {
+      "name": "open_house_date",
+      "label": "Open House Date",
+      "type": "datetime",
+      "fieldType": "date",
+      "description": "Open House Date"
     }
   ],
-  "associatedObjects": [
-    "CONTACT"
-  ]
+  "associatedObjects": ["CONTACT"]
 }
