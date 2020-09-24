@@ -1,3 +1,4 @@
+{{ require_js('https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js') }}
 {% set property_id = request.query_dict.property %}
 
 {% if property_id %}
@@ -64,7 +65,7 @@
         <div class="property-interest__modal" style="display: none;">
           <button class="property-interest__close-modal">{% icon name="times" set="fontawesome-5" style="solid" format="svg" width="22" height="22", purpose="semantic", title="address-card icon" %}</button>
           <h2>Request a viewing</h2>
-          <form id="property_interest_form">
+          <form id="property_interest_form" class="property-interest__form">
             <label for="email">Email</label>
             <input type="text" name="email">
 
@@ -76,7 +77,7 @@
 
             <input type="hidden" name="propertyId" value="{{ request.query_dict.property }}">
             <input type="hidden" name="formId" value="{{ module.form.form_id }}">
-            <input type="button" id="submit" value="Submit">
+            <input type="button" id="submit" class="property-interest__submit" value="Submit">
           </form>
 
           <div class="property-interest__message" style="display: none;">
@@ -95,55 +96,3 @@
     No property information provided!
   </div>
 {% endif %}
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg==" crossorigin="anonymous"></script>
-<script>
-var propertyInterest = document.querySelector('.property-interest');
-var submissionForm = propertyInterest.querySelector('#property_interest_form');
-var messageContainer = propertyInterest.querySelector('.property-interest__message');
-var requestModal = propertyInterest.querySelector('.property-interest__modal');
-var requestButton = propertyInterest.querySelector('.property-interest__request');
-var requestCloseButton = propertyInterest.querySelector('.property-interest__close-modal');
-
-
-requestButton.addEventListener('click', function() {
-  requestModal.style.display = 'block';
-});
-requestCloseButton.addEventListener('click', function() {
-  requestModal.style.display = 'none';
-});
-
-var processSubmission = function() {
-  var SUBMISSION_ENDPOINT = "/_hcms/api/submit";
-
-  var serializeForm = function (form) {
-    var obj = {};
-    var formData = new FormData(form);
-    for (var key of formData.keys()) {
-      obj[key] = formData.get(key);
-    }
-    return obj;
-  };
-
-  var handleFormSuccess =  function() {
-    submissionForm.style.display = 'none';
-    messageContainer.style.display = 'block';
-  }
-
-  axios.post(SUBMISSION_ENDPOINT, serializeForm(submissionForm))
-  .then(function (response) {
-    if (response.data.statusCode === 200) {
-      handleFormSuccess();
-    }
-  })
-  .catch(function (error) {
-    console.log(error);
-  });
-}
-
-submissionForm.querySelector('#submit').addEventListener('click', function() {
-  processSubmission();
-});
-
-</script>
