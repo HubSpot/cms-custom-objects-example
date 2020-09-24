@@ -14,7 +14,7 @@ jobs:
         node-version: 10.x
     - name: Install NPM deps
       run: |
-          npm install
+          npm install --ignore-scripts
     - name: Generate hubspot.config.yml and deploy
       env:
         HUBSPOT_PORTAL_ID: ${{ secrets.HubSpotPortalId }}
