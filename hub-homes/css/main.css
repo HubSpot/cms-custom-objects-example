@@ -30,9 +30,7 @@
 #}
 
 {% include './elements/_typography.css' %}
-{% include './elements/_buttons.css' %}
 {% include './elements/_forms.css' %}
-{% include './elements/_tables.css' %}
 
 {#
 ## Components
@@ -40,15 +38,6 @@
 #}
 
 {% include './components/_header.css' %}
-{% include './components/_footer.css' %}
-
-{#
-## Template Specific
-## Styles applied to specific template types (system pages, blog, etc.)
-#}
-
-{% include './templates/_blog.css' %}
-{% include './templates/_system.css' %}
 
 {#
 ## Module Specific
