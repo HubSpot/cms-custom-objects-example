@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HubSpot/cms-custom-objects-example.git"
@@ -17,10 +14,11 @@
   },
   "homepage": "https://github.com/HubSpot/cms-custom-objects-example#readme",
   "dependencies": {
-    "@hubspot/cms-cli": "^2.0.2-beta.0"
+    "@hubspot/cms-cli": "^2.0.2-beta.1"
   },
   "scripts": {
-    "install": "hs custom-object schema create ./resources/property-listing.schema.json",
+    "install": "hs custom-object schema create ./resources/property-listing.schema.json && npm run createData",
+    "createData": "hs custom-object create propertylisting ./resources/property-listings.json",
     "upload": "hs upload hub-homes hub-homes",
     "develop": "hs watch hub-homes hub-homes"
   }

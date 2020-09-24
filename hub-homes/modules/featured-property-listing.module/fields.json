@@ -1,45 +1,49 @@
-[ {
-  "id" : "0e560c17-2da8-4c8f-58fa-7213bb3b35c8",
-  "name" : "listing_header",
-  "label" : "Listing Header",
-  "required" : false,
-  "locked" : false,
-  "validation_regex" : "",
-  "allow_new_line" : false,
-  "show_emoji_picker" : false,
-  "type" : "text",
-  "default" : "Featured Property Listing"
-}, {
-  "id" : "a0b597e7-f134-c93a-8873-bdc2519ab264",
-  "name" : "properties",
-  "label" : "Properties",
-  "required" : false,
-  "locked" : false,
-  "occurrence" : {
-    "min" : null,
-    "max" : null,
-    "sorting_label_field" : null,
-    "default" : null
+[
+  {
+    "id": "0e560c17-2da8-4c8f-58fa-7213bb3b35c8",
+    "name": "listing_header",
+    "label": "Listing Header",
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "Featured Property Listing"
   },
-  "children" : [ {
-    "id" : "b4a1c510-ee32-5727-4f12-0f5411b74466",
-    "name" : "Property",
-    "label" : "CRM object",
-    "required" : false,
-    "locked" : false,
-    "placeholder" : "Property",
-    "object_type" : "p104354756_property-listing",
-    "properties_to_fetch" : [ "bedrooms", "address", "price", "square_feet", "property_image", "bathrooms" ],
-    "type" : "crmobject",
-    "default" : {
-      "id" : 13410149
-    }
-  } ],
-  "tab" : "CONTENT",
-  "type" : "group",
-  "default" : {
-    "Property" : {
-      "id" : 13410149
-    }
+  {
+    "id": "a0b597e7-f134-c93a-8873-bdc2519ab264",
+    "name": "properties",
+    "label": "Properties",
+    "required": true,
+    "locked": false,
+    "occurrence": {
+      "min": 1,
+      "max": null,
+      "sorting_label_field": null,
+      "default": null
+    },
+    "children": [
+      {
+        "id": "b4a1c510-ee32-5727-4f12-0f5411b74466",
+        "name": "Property",
+        "label": "CRM object",
+        "required": true,
+        "locked": false,
+        "placeholder": "Property",
+        "object_type": "propertylisting",
+        "properties_to_fetch": [
+          "bedrooms",
+          "address",
+          "price",
+          "square_feet",
+          "property_image",
+          "bathrooms"
+        ],
+        "type": "crmobject"
+      }
+    ],
+    "tab": "CONTENT",
+    "type": "group"
   }
-} ]
+]

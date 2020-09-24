@@ -1,12 +1,12 @@
 {% set property_id = request.query_dict.property %}
 
 {% if property_id %}
-  {% set property = crm_object("property-listing", property_id, "address, bedrooms, bathrooms, description, property_image, price, square_feet") %}
+  {% set property = crm_object("propertylisting", property_id, "address, bedrooms, bathrooms, description, property_image, price, square_feet") %}
   {% if property.address %}
     <div>
       <div class="details-header--container">
         <span class="details-header">
-          Featured Property 
+          Featured Property
         </span>
       </div>
       <div class="details-address--container">
@@ -15,50 +15,50 @@
         </div>
       </div>
       <div class="details-image--container">
-        <img src="{{ property.property_image }}" class="details-image"> 
+        <img src="{{ property.property_image }}" class="details-image">
       </div>
       <div class="details-specifics--container">
         <div class="details-specifics-item">
           <div class="details-specifics--header">
-            Price  
+            Price
           </div>
           <div class="details-specifics">
            ${{property.price}}
           </div>
         </div>
-      
+
         <div class="details-specifics-item">
           <div class="details-specifics--header">
-            Beds  
+            Beds
           </div>
           <div class="details-specifics">
            {{property.bedrooms}}
           </div>
         </div>
-      
+
         <div class="details-specifics-item">
           <div class="details-specifics--header">
-            Baths  
+            Baths
           </div>
           <div class="details-specifics">
            {{property.bathrooms}}
           </div>
         </div>
-      
+
         <div class="details-specifics-item">
           <div class="details-specifics--header">
-            Square Feet  
+            Square Feet
           </div>
           <div class="details-specifics">
            {{property.square_feet}}
           </div>
-        </div>    
+        </div>
       </div>
       <div class="details-description--container">
         <div class="details-description">
           {{property.description}}
         </div>
-      </div>    
+      </div>
     </div>
   {% else %}
     <div class="error">
