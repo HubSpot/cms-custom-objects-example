@@ -17,8 +17,8 @@
     "@hubspot/cms-cli": "^2.0.2-beta.1"
   },
   "scripts": {
-    "install": "hs custom-object schema create ./resources/property-listing.schema.json && npm run createData",
-    "createData": "hs custom-object create propertylisting ./resources/property-listings.json",
+    "install": "hs custom-object schema create ./resources/real-estate.schema.json && npm run createData",
+    "createData": "hs custom-object create realestate ./resources/real-estate.json",
     "upload": "hs upload hub-homes hub-homes",
     "develop": "hs watch hub-homes hub-homes"
   }

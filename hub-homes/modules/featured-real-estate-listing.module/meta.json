@@ -1,0 +1,9 @@
+{
+  "global": false,
+  "smart_type": "NOT_SMART",
+  "icon": "list-alt:SOLID",
+  "host_template_types": ["PAGE"],
+  "module_id": 4330257858,
+  "label": "Featured Real Estate",
+  "is_available_for_new_content": true
+}

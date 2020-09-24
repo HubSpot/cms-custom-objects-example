@@ -1,0 +1,52 @@
+{% for item in module.realestate %}
+  <div class="listing">
+    <div class="listing-col">
+      <img src="{{ item.RealEstate.properties.real_estate_image }}" class="listing-image">
+    </div>
+
+    <div class="listing-col">
+      <div class="listing-header--container">
+         <span class="listing-header">
+           {{ module.listing_header }}
+         </span>
+     </div>
+      <br>
+	    <div class="listing-address">
+        {{ item.RealEstate.properties.address }}
+      </div>
+      <p>
+        <div class="listing-real-estate-details">
+          <div class="listing-real-estate-details--header">
+            Price
+          </div>
+          ${{ item.RealEstate.properties.price }}
+        </div>
+        <div class="listing-real-estate-details">
+           <div class="listing-real-estate-details--header">
+             Beds
+          </div>
+           {{ item.RealEstate.properties.bedrooms }}
+         </div>
+        <div class="listing-real-estate-details">
+          <div class="listing-real-estate-details--header">
+            Baths
+          </div>
+          {{ item.RealEstate.properties.bathrooms }}
+        </div>
+        <div class="listing-real-estate-details">
+          <div class="listing-real-estate-details--header">
+            Square Feet
+          </div>
+          {{ item.RealEstate.properties.square_feet }}
+        </div>
+      </p>
+    </div>
+  </div>
+{% endfor %}
+{% for item in module.realestate %}
+  <div class="listing-details-link--container">
+    <span class="listing-details-link">
+      <a href="/real-estate?realestate={{item.RealEstate.properties.id}}"> See details </a>
+    </span>
+  </div>
+{% endfor %}

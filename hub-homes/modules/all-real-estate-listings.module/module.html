@@ -1,0 +1,27 @@
+{% set realestate = crm_objects(
+    "realestate",
+    "limit=100",
+    "address, bedrooms, bathrooms, real_estate_image, price, square_feet"
+    ) %}
+
+<div class="real-estate-list">
+  {% for estate in realestate.results %}
+    <div class="real-estate-list-item">
+      <img src="{{ estate.real_estate_image }}" class="real-estate-image">
+      <div class="real-estate-address">
+        {{ estate.address }}
+      </div>
+      <div class="real-estate-price">
+        <div class="real-estate-price--header">
+          Price
+        </div>
+          ${{ estate.price }}
+      </div>
+      <div class="real-estate-details-link--container">
+        <span class="real-estate-details-link">
+          <a href="/real-estate?realestate={{estate.id}}"> See details </a>
+        </span>
+      </div>
+    </div>
+  {% endfor %}
+</div>

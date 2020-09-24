@@ -1,7 +1,7 @@
-/* all-property-listings module styling */
+/* all-real-estate-listings module styling */
 
 @media (min-width: 1209px) {
-  .property-list {
+  .real-estate-list {
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
@@ -10,44 +10,44 @@
     margin: 0 auto;
   }
 
-  .property-list-item {
+  .real-estate-list-item {
     width: 50%;
   }
 }
 
-.property-image {
+.real-estate-image {
   height: 310px;
   width: 450px;
 }
 
-.property-address {
+.real-estate-address {
   font-size: 20px;
   margin-top: 12px;
 }
 
-.property-price {
+.real-estate-price {
   margin-bottom: 15px;
   font-size: 13px;
 }
 
-.property-price--header {
+.real-estate-price--header {
   color: #dcceca;
   letter-spacing: 0.1px;
   text-transform: uppercase;
 }
 
-.property-details-link--container {
+.real-estate-details-link--container {
   margin-bottom: 80px;
 }
 
-.property-details-link {
+.real-estate-details-link {
   background-color: #000000;
   font-size: 12px;
   margin-bottom: 20px;
   padding: 5px 15px;
 }
 
-/* featured-property-listing module styling */
+/* featured-real-estate-listing module styling */
 
 @media (min-width: 1209px) {
   .listing {
@@ -85,12 +85,12 @@
   margin-top: 5px;
 }
 
-.listing-property-details {
+.listing-real-estate-details {
   font-size: 13px;
   margin-bottom: 15px;
 }
 
-.listing-property-details--header {
+.listing-real-estate-details--header {
   color: #dcceca;
   letter-spacing: 0.1px;
   text-transform: uppercase;
@@ -107,7 +107,7 @@
   padding: 8px 35px;
 }
 
-/* property-details module styling */
+/* real-estate-details module styling */
 
 .details-header--container {
   display: flex;
@@ -182,7 +182,7 @@
   text-align: center;
 }
 
-.property-interest__modal {
+.real-estate-interest__modal {
   max-width: 660px;
   width: 90%;
   height: 500px;
@@ -196,21 +196,21 @@
   border-radius: 5px;
 }
 
-.property-interest__modal h2 {
+.real-estate-interest__modal h2 {
   text-align: center;
 }
 
-.property-interest__modal form {
+.real-estate-interest__modal form {
   background-color: transparent;
   padding: 0;
   max-width: 600px;
 }
 
-.property-interest__modal input {
+.real-estate-interest__modal input {
   margin-bottom: 20px;
 }
 
-.property-interest__close-modal {
+.real-estate-interest__close-modal {
   background-color: transparent;
   color: #fff;
   padding: 10px;
@@ -220,7 +220,7 @@
   cursor: pointer;
 }
 
-.property-interest__message {
+.real-estate-interest__message {
   font-size: 20px;
   text-align: center;
   margin-top: 80px;

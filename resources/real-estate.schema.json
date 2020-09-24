@@ -1,8 +1,8 @@
 {
-  "name": "propertylisting",
+  "name": "realestate",
   "labels": {
-    "singular": "Property Listing",
-    "plural": "Property Listings"
+    "singular": "Real Estate",
+    "plural": "Real Estate"
   },
   "requiredProperties": ["address"],
   "searchableProperties": ["address"],
@@ -33,7 +33,7 @@
       "label": "Description",
       "type": "string",
       "fieldType": "textarea",
-      "description": "A full description of the property listing"
+      "description": "A full description of the real estate listing"
     },
     {
       "name": "dynamic_page_title",
@@ -54,21 +54,21 @@
       "label": "Price",
       "type": "number",
       "fieldType": "number",
-      "description": "Price of property"
+      "description": "Price of real estate"
     },
     {
-      "name": "property_image",
-      "label": "Property Image",
+      "name": "real_estate_image",
+      "label": "Real Estate Image",
       "type": "string",
       "fieldType": "text",
-      "description": "Property Image"
+      "description": "Real Estate Image"
     },
     {
       "name": "square_feet",
       "label": "Square Feet",
       "type": "number",
       "fieldType": "number",
-      "description": "Square feet of the property"
+      "description": "Square feet of the real estate"
     },
     {
       "name": "open_house_date",

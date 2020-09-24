@@ -3,10 +3,12 @@ const axios = require("axios");
 const { APIKEY } = process.env;
 
 exports.main = ({ accountId, contact, body }, sendResponse) => {
-  const { email, firstName, lastName, formId, utk, propertyId } = body;
+  const { email, firstName, lastName, formId, utk, realEstateId } = body;
   const FORMS_API = `https://api.hsforms.com/submissions/v3/integration/submit/${accountId}/${formId}`;
   const CONTACT_API = `https://api.hubapi.com/contacts/v1/contact/email/${email}/profile`;
-  const ASSOCIATIONS_API = `https://api.hubapi.com/crm/v3/associations/contact/p${accountId}_propertylisting/batch/create`;
+  const ASSOCIATIONS_API = `https://api.hubapi.com/crm/v3/associations/contact/p${accountId}_realestate/batch/create`;
+
+
 
   if (!APIKEY) {
     sendResponse({
@@ -88,10 +90,10 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
     }
   };
 
-  const associateContactWithProperty = async (
+  const associateContactWithRealEstate = async (
     visitorId,
     accountId,
-    propertyId
+    realEstateId
   ) => {
     try {
       await axios({
@@ -108,9 +110,9 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
                 id: visitorId,
               },
               to: {
-                id: propertyId,
+                id: realEstateId,
               },
-              type: "property_listing_to_contact",
+              type: "real_estate_listing_to_contact",
             },
           ],
         },
@@ -123,17 +125,16 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
     }
   };
 
+
   (async () => {
     await submitFormData();
-
     let visitorId;
     if (contact && contact.hasOwnProperty("vid")) {
       visitorId = contact.vid;
     } else {
       visitorId = await getContactByEmail(email);
     }
-
-    await associateContactWithProperty(visitorId, accountId, propertyId);
+    await associateContactWithRealEstate(visitorId, accountId, realEstateId);
 
     sendResponse({ body: { statusCode: 200 } });
   })();

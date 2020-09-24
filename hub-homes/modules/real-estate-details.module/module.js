@@ -1,14 +1,14 @@
-var initPropertyInterestForm = function (formContainer) {
-  var submissionForm = formContainer.querySelector(".property-interest__form");
+var initRealEstateInterestForm = function (formContainer) {
+  var submissionForm = formContainer.querySelector(".real-estate-interest__form");
   var messageContainer = formContainer.querySelector(
-    ".property-interest__message"
+    ".real-estate-interest__message"
   );
-  var requestModal = formContainer.querySelector(".property-interest__modal");
+  var requestModal = formContainer.querySelector(".real-estate-interest__modal");
   var requestButton = formContainer.querySelector(
-    ".property-interest__request"
+    ".real-estate-interest__request"
   );
   var requestCloseButton = formContainer.querySelector(
-    ".property-interest__close-modal"
+    ".real-estate-interest__close-modal"
   );
 
   requestButton.addEventListener("click", function () {
@@ -48,16 +48,16 @@ var initPropertyInterestForm = function (formContainer) {
   };
 
   submissionForm
-    .querySelector(".property-interest__submit")
+    .querySelector(".real-estate-interest__submit")
     .addEventListener("click", function () {
       processSubmission();
     });
 };
 
-var propertyInterestForms = document.querySelectorAll(
-  '.property-interest'
+var realEstateInterestForms = document.querySelectorAll(
+  '.real-estate-interest'
 );
 
-Array.prototype.forEach.call(propertyInterestForms, function (el) {
-  initPropertyInterestForm(el);
+Array.prototype.forEach.call(realEstateInterestForms, function (el) {
+  initRealEstateInterestForm(el);
 });

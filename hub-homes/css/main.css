@@ -42,7 +42,7 @@
 
 {#
 ## Module Specific
-## Styles applied to specific modules (All Property Listings, Featured Property Listings)
+## Styles applied to specific modules (All Real Estate Listings, Featured Real Estate Listings)
 #}
 
 {% include './modules/_modules.css' %}

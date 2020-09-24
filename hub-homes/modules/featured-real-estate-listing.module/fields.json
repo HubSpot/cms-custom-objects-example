@@ -9,12 +9,12 @@
     "allow_new_line": false,
     "show_emoji_picker": false,
     "type": "text",
-    "default": "Featured Property Listing"
+    "default": "Featured Real Estate"
   },
   {
     "id": "a0b597e7-f134-c93a-8873-bdc2519ab264",
-    "name": "properties",
-    "label": "Properties",
+    "name": "realestate",
+    "label": "Real Estate",
     "required": true,
     "locked": false,
     "occurrence": {
@@ -26,18 +26,18 @@
     "children": [
       {
         "id": "b4a1c510-ee32-5727-4f12-0f5411b74466",
-        "name": "Property",
+        "name": "RealEstate",
         "label": "CRM object",
         "required": true,
         "locked": false,
-        "placeholder": "Property",
-        "object_type": "propertylisting",
+        "placeholder": "Real Estate",
+        "object_type": "realestate",
         "properties_to_fetch": [
           "bedrooms",
           "address",
           "price",
           "square_feet",
-          "property_image",
+          "real_estate_image",
           "bathrooms"
         ],
         "type": "crmobject"
