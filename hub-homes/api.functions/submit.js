@@ -49,6 +49,7 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
   };
 
   const getContactByEmail = async (email) => {
+    const CONTACT_API_POLLING_DELAY = 500;
     const delay = (ms) => {
       return new Promise((resolve) => setTimeout(resolve, ms));
     };
@@ -74,7 +75,7 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
         if (status == 200) {
           contactData = data.vid;
         } else {
-          await delay(1000);
+          await delay(CONTACT_API_POLLING_DELAY);
         }
       }
 
