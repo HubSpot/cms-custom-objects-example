@@ -2,8 +2,8 @@ const axios = require("axios");
 
 const { APIKEY } = process.env;
 
-exports.main = ({ accountId, contact, body }, sendResponse) => {
-  const { email, firstName, lastName, formId, utk, propertyId } = body;
+exports.main = ({ accountId, contact, body, headers }, sendResponse) => {
+  const { email, firstName, lastName, formId, propertyId } = body;
   const FORMS_API = `https://api.hsforms.com/submissions/v3/integration/submit/${accountId}/${formId}`;
   const CONTACT_API = `https://api.hubapi.com/contacts/v1/contact/email/${email}/profile`;
   const ASSOCIATIONS_API = `https://api.hubapi.com/crm/v3/associations/contact/p${accountId}_propertylisting/batch/create`;
@@ -14,6 +14,14 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
       body: { message: "API key not present" },
     });
   }
+
+  const getUtk = () => {
+    if (headers.hasOwnProperty("Cookie")) {
+      return headers.Cookie.split("; ")
+        .find((row) => row.startsWith("hubspotutk"))
+        .split("=")[1];
+    }
+  };
 
   const submitFormData = async () => {
     try {
@@ -36,7 +44,7 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
             },
           ],
           context: {
-            hutk: utk,
+            hutk: getUtk(),
           },
         },
       });
@@ -48,7 +56,7 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
     }
   };
 
-  const getContactByEmail = async (email) => {
+  const getContactByEmail = async () => {
     const CONTACT_API_POLLING_DELAY = 500;
     const delay = (ms) => {
       return new Promise((resolve) => setTimeout(resolve, ms));
