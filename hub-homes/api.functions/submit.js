@@ -2,12 +2,11 @@ const axios = require("axios");
 
 const { APIKEY } = process.env;
 
-exports.main = (cx, sendResponse) => {
-  const { accountId, contact, body, headers } = cx;
+exports.main = ({ accountId, contact, body, headers }, sendResponse) => {
   const { email, firstName, lastName, formId, propertyId } = body;
-  const FORMS_API = `https://api.hsforms.com/submissions/v3/integration/submit/${accountId}/${formId}`;
-  const CONTACT_API = `https://api.hubapi.com/contacts/v1/contact/email/${email}/profile`;
-  const ASSOCIATIONS_API = `https://api.hubapi.com/crm/v3/associations/contact/p${accountId}_propertylisting/batch/create`;
+  const FORMS_API = `https://api.hsformsqa.com/submissions/v3/integration/submit/${accountId}/${formId}`;
+  const CONTACT_API = `https://api.hubapiqa.com/contacts/v1/contact/email/${email}/profile`;
+  const ASSOCIATIONS_API = `https://api.hubapiqa.com/crm/v3/associations/contact/p${accountId}_propertylisting/batch/create`;
 
   if (!APIKEY) {
     sendResponse({
@@ -57,7 +56,7 @@ exports.main = (cx, sendResponse) => {
     }
   };
 
-  const getContactByEmail = async (email) => {
+  const getContactByEmail = async () => {
     const CONTACT_API_POLLING_DELAY = 500;
     const delay = (ms) => {
       return new Promise((resolve) => setTimeout(resolve, ms));
