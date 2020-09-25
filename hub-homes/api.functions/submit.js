@@ -2,8 +2,9 @@ const axios = require("axios");
 
 const { APIKEY } = process.env;
 
-exports.main = ({ accountId, contact, body }, sendResponse) => {
-  const { email, firstName, lastName, formId, utk, propertyId } = body;
+exports.main = (cx, sendResponse) => {
+  const { accountId, contact, body, headers } = cx;
+  const { email, firstName, lastName, formId, propertyId } = body;
   const FORMS_API = `https://api.hsforms.com/submissions/v3/integration/submit/${accountId}/${formId}`;
   const CONTACT_API = `https://api.hubapi.com/contacts/v1/contact/email/${email}/profile`;
   const ASSOCIATIONS_API = `https://api.hubapi.com/crm/v3/associations/contact/p${accountId}_propertylisting/batch/create`;
@@ -14,6 +15,14 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
       body: { message: "API key not present" },
     });
   }
+
+  const getUtk = () => {
+    if (headers.hasOwnProperty("Cookie")) {
+      return headers.Cookie.split("; ")
+        .find((row) => row.startsWith("hubspotutk"))
+        .split("=")[1];
+    }
+  };
 
   const submitFormData = async () => {
     try {
@@ -36,7 +45,7 @@ exports.main = ({ accountId, contact, body }, sendResponse) => {
             },
           ],
           context: {
-            hutk: utk,
+            hutk: getUtk(),
           },
         },
       });
