@@ -28,3 +28,8 @@ portals:
 - Email Address
 8. Create a page that will display all property listings by using the "Home page" (`property-listings.html`) template
 9. Create a page that will display property details by using the "Details page" (`details.html`) template. The slug for for Details page must be `/property`; you can change the content slug under the page's settings. Additionally, in the "Property Details Module", you'll need to choose the form that you created in step 7.
+
+## Sign up to the betas
+To try this custom objects example you'll need access to some beta functionality.
+Specifically you'll need to participate in our CRM objects in CMS and CMR Object Field betas.
+[Sign up for these betas and more](http://developers.hubspot.com)
