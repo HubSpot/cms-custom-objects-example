@@ -1,6 +1,6 @@
 {
   "label" : "Hub Homes",
   "preview_path" : "./templates/home.html",
-  "screenshot_path" : "./images/template-previews/preview.png",
+  "screenshot_path" : "./images/template-previews/theme-preview.png",
   "enable_domain_stylesheets" : null
 }
