@@ -71,6 +71,8 @@
 }
 
 .listing-header--container {
+  display: flex;
+  justify-content: space-between;
   margin-top: 8px;
 }
 
@@ -94,12 +96,6 @@
   color: #dcceca;
   letter-spacing: 0.1px;
   text-transform: uppercase;
-}
-
-.listing-details-link--container {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
 }
 
 .listing-details-link {

@@ -32,6 +32,10 @@
           <span class="listing-header">
             {{ header }}
           </span>
+
+          <span class="listing-details-link">
+            <a href="/property?property={{item.Property.properties.id}}"> See details </a>
+          </span>
       </div>
       <br>
       <div class="listing-address">
@@ -64,13 +68,6 @@
         </div>
       </p>
     </div>
-  </div>
-{% endfor %}
-{% for item in properties %}
-  <div class="listing-details-link--container">
-    <span class="listing-details-link">
-      <a href="/property?property={{item.Property.properties.id}}"> See details </a>
-    </span>
   </div>
 {% endfor %}
 
