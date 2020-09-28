@@ -1,4 +1,4 @@
-{% if module.properties|length > 0 && module.properties[0].price > 0 %}
+{% if module.properties|length > 0 && module.properties[0].Property.properties.price > 0 %}
   {% set properties = module.properties %}
   {% set header = module.listing_header %}
 {% else %}
