@@ -15,10 +15,9 @@ jobs:
     - name: Install NPM deps
       run: |
           npm install --ignore-scripts
-    - name: Generate hubspot.config.yml and deploy
+    - name: Deploy
       env:
         HUBSPOT_PORTAL_ID: ${{ secrets.HubSpotPortalId }}
-        HUBSPOT_API_KEY: ${{ secrets.HubSpotApiKey }}
+        HUBSPOT_PERSONAL_ACCESS_KEY: ${{ secrets.HubSpotApiKey }}
       run: |
-        bin/generate-config.js
         bin/deploy.sh
