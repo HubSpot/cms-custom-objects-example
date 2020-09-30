@@ -11,7 +11,7 @@ Before getting started, you'll need an account that has CMS Hub Enterprise and a
 3. If you already have a `hubspot.config.yml` file set up, run `hs auth` to authenticate with your account. Otherwise, run `hs init` to set up your config file. More info on setting up the config file can be found [here](https://developers.hubspot.com/docs/cms/guides/getting-started-with-local-development).
 4. Run `npm run setup` to create the custom schema and custom object
 5. Copy the API key for your portal from [HubSpot API key](https://app.hubspot.com/l/api-key). You will need to create one if you haven't already. More info on API Keys can be found [here](https://knowledge.hubspot.com/integrations/how-do-i-get-my-hubspot-api-key).
-6. Add your API key by running `hs secrets add APIKEY <apikey>` using your API key from step 5.
+6. Add your API key by running `hs secrets add APIKEY <apikey>` using your API key from step 5. This will allow the [serverless function used when submitting the form](https://github.com/HubSpot/cms-custom-objects-example/blob/master/hub-homes/api.functions/submit.js#L3) to make authenticated calls.
 7. [Create a form](https://app.hubspot.com/l/forms) that contains the following fields:
   - First Name
   - Last Name
