@@ -18,6 +18,6 @@ jobs:
     - name: Deploy
       env:
         HUBSPOT_PORTAL_ID: ${{ secrets.HubSpotPortalId }}
-        HUBSPOT_PERSONAL_ACCESS_KEY: ${{ secrets.HubSpotApiKey }}
+        HUBSPOT_PERSONAL_ACCESS_KEY: ${{ secrets.HubSpotPersonalAccessKey }}
       run: |
         bin/deploy.sh
