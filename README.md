@@ -2,6 +2,14 @@
 
 This project demonstrates how custom objects can be used inside the HubSpot CMS.
 
+## Sign up to the beta (REQUIRED)
+To try this custom objects example you'll need access to some beta functionality.
+Specifically you'll need to participate in our CRM objects in CMS and CMR Object Field betas.
+
+The sign up form requires a password, as this was announced as part of Developer Day [our resources page](https://developers.hubspot.com/developer-day-2020/resources) contains the password at the bottom of the page. 
+[Sign up for these betas and more](https://developers.hubspot.com/private-betas)
+
+
 ## Getting started
 
 Before getting started, you'll need an account that has CMS Hub Enterprise and access to the API Key.
