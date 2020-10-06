@@ -20,7 +20,6 @@
     "develop": "hs watch hub-homes hub-homes"
   },
   "devDependencies": {
-    "js-yaml": "^3.14.0",
     "@hubspot/cms-cli": "^2.0.2-beta.1"
   }
 }
