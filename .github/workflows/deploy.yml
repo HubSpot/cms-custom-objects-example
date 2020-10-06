@@ -17,4 +17,4 @@ jobs:
         HUBSPOT_PORTAL_ID: ${{ secrets.HubSpotPortalId }}
         HUBSPOT_PERSONAL_ACCESS_KEY: ${{ secrets.HubSpotPersonalAccessKey }}
       run: |
-        bin/deploy.sh
+        npx hs upload hub-homes hub-homes --use-env
