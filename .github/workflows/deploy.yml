@@ -12,6 +12,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 10.x
+    - name: Install NPM deps
+    - name: Deploy
+      run: |
+          npm install
     - name: Deploy
       env:
         HUBSPOT_PORTAL_ID: ${{ secrets.HubSpotPortalId }}
