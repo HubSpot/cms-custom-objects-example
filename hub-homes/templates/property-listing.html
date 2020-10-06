@@ -34,10 +34,16 @@
     {# End Banner Section #}
 
     {# Featured property listing #}
-    {% dnd_section %}
+    {% dnd_section
+      background_color={
+        'r': 249,
+        'g': 247,
+        'b': 247,
+        'a': 1.0
+      } %}
       {% dnd_column %}
         {% dnd_row %}
-          {% dnd_module path="../modules/featured-property-listing" %}
+            {% dnd_module path="../modules/featured-property-listing" %}
           {% end_dnd_module %}
         {% end_dnd_row %}
       {% end_dnd_column %}
